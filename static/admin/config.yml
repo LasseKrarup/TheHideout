@@ -1,0 +1,25 @@
+backend:
+  name: git-gateway
+  repo: LasseKrarup/TheHideout
+  branch: main
+
+media_folder: static/img
+public_folder: /img
+
+# Disables preview editor
+editor:
+  preview: false
+
+# Collections
+# https://www.netlifycms.org/docs/collection-types/
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+    - name: "index"
+        label: "Welcome Section"
+        file: "content/pages/index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Body", name: "body", widget: "markdown" }
