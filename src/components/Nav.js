@@ -8,7 +8,7 @@ const Nav = () => {
 
     return (
         <nav className="flex font-heading lowercase">
-            <ul className="flex flex-wrap text-xl ml-8 mt-8">
+            <ul className="flex flex-col text-2xl ml-8 mt-8">
                 {navigation.map(item => (
                     <NavlinkToplevel key={uuid()} title={item.title} slug={item.slug} sub={item.sub} />
                 ))}

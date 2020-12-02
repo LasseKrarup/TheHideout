@@ -4,19 +4,28 @@ import { Link } from "gatsby"
 import PropTypes from 'prop-types';
 import path from "path"
 import { v4 as uuid } from "uuid"
+import {useSpring, animated} from "react-spring"
 
 
 const Dropdown = ({sub, isActive, parentSlug}) => {
+    const {opacity} = useSpring({
+        opacity: isActive ? 1 : 0,
+        config: {
+            tension: 500,
+            friction: 20
+        }
+    })
+
     return (
-        <ul className={`${isActive ? "visible" : "invisible"} transition-opacity py-2 duration-100 block bg-black w-64 z-10 absolute inset-x-0 top-6`}>
+        <animated.ul className={`transition-opacity py-2 duration-100 block z-10 bg-black w-64 absolute inset-x-0 top-8 px-2 -ml-2 border-white border rounded-md`} style={{opacity: opacity.interpolate(o=>o), visibility: opacity.interpolate(o => o === 0 ? 'hidden' : 'visible')}}>
             {    
                 sub.map((i, n) => (
-                    <li key={uuid()} className="py-1 hover:text-yellow-300 hover:bg-black">
-                        <Link to={path.join(parentSlug, i.slug)}>{i.title}</Link>
+                    <li key={uuid()} className="py-1 hover:bg-black border-b last:border-b-0 border-gray-600">
+                        <Link to={path.join(parentSlug, i.slug)} className="hover:text-yellow-300">{i.title}</Link>
                     </li>
                 ))
             }
-        </ul>
+        </animated.ul>
     );
 }
 

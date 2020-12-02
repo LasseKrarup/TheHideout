@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 import { Link } from "gatsby";
-import path from "path"
 import Dropdown from './Dropdown';
 import useClickOutside from "../../hooks/clickOutside"
 
@@ -14,6 +13,13 @@ const NavlinkToplevel = ({title, slug, sub}) => {
     const handleClickOutside = e => {
         setDropdownActive(false)
     }
+    const handleKeydown = e => {
+        if(e.key === "Escape") {
+            if(dropdownActive) {
+                setDropdownActive(false)
+            }
+        }
+    }
 
     const domRef = useClickOutside(handleClickOutside)
 
@@ -24,7 +30,7 @@ const NavlinkToplevel = ({title, slug, sub}) => {
                     <Link to={slug} className="hover:text-yellow-300">
                         {title}
                     </Link>
-                    <div onClick={handleClick} className={`w-0 h-0 border-8 mt-3 ml-1 mx-auto ${false && "invisible"}`} style={{borderColor: "transparent", borderTopColor: "yellow"}}></div>
+                    <div onClick={handleClick} onKeyDown={handleKeydown} role="button" aria-label="menu-button" tabIndex="0" className={`w-0 h-0 border-8 mt-3 ml-1 mx-auto ${false && "invisible"}`} style={{borderColor: "transparent", borderTopColor: "yellow"}}></div>
                 </div>
                 <Dropdown sub={sub} parentSlug={slug} isActive={dropdownActive} />
             </li>
