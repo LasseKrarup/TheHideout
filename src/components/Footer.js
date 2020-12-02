@@ -11,7 +11,7 @@ const Footer = () => {
                     Karnersvej, Aalborg [DK]
                 </li>
                 <li>
-                    CVR: 123456
+                    CVR: 35014640
                 </li>
             </ul>
             <p className="mt-2">© {new Date().getFullYear()} Design by{` `}<a href="https://www.lassekrarup.com" className="whitespace-nowrap hover:text-white transition-colors duration-100" target="_blank" rel="noreferrer">Lasse Krarup</a></p>
