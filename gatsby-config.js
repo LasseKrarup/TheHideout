@@ -9,9 +9,9 @@
 
 module.exports = {
   siteMetadata: {
-    title: `LasseKrarup Gatsby Starter`,
-    description: `Gatsby Starter with TailwindCSS and NetlifyCMS`,
-    author: `LasseKrarup`,
+    title: `The HideOut Studio`,
+    description: `Recording/video/photography studio in the heart of Aalborg, DK`,
+    author: `Lasse Krarup <me@lassekrarup.com>`,
   },
   plugins: [
     // Metadata https://www.gatsbyjs.com/plugins/gatsby-plugin-react-helmet/
