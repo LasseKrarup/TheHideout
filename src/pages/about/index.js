@@ -1,12 +1,12 @@
 import React from 'react';
+import PageLayout from '../../layouts/PageLayout';
 
-import IndexLayout from "../../components/IndexLayout";
 
 const contact = () => {
     return (
-        <IndexLayout>
+        <PageLayout>
             <h1>About</h1>
-        </IndexLayout>
+        </PageLayout>
     );
 }
 

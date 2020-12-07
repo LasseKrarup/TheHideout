@@ -9,10 +9,11 @@ import React from "react"
 import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
 
-import Hero from "./Hero"
-import Footer from "./Footer"
+import Hero from "../components/Hero"
+import Footer from "../components/Footer"
+import Slideover from "../components/util/Slideover"
 
-const Layout = ({ children }) => {
+const PageLayout = ({ children }) => {
   // const data = useStaticQuery(graphql`
   //   query SiteTitleQuery {
   //     site {
@@ -26,14 +27,15 @@ const Layout = ({ children }) => {
   return (
     <div className="flex flex-col min-h-screen">
       <Hero title="The HideOut Studio" />
+      <Slideover />
         <main className="flex-grow container mx-auto">{children}</main>
       <Footer />
     </div>
   )
 }
 
-Layout.propTypes = {
+PageLayout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default Layout
+export default PageLayout

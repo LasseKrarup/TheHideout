@@ -22,5 +22,6 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Image", name: "image", widget: "image" }
+          - { label: "Featured video", name: "video", widget: "file", pattern: ['\.mp4$', "File must be of type '.mp4'!"]}
           - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Top level", name: "toplevel", widget: "hidden", default: true}

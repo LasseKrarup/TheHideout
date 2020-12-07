@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react"
+// import { Link } from "gatsby"
 
-import IndexLayout from "../../components/IndexLayout"
+import PageLayout from "../../layouts/PageLayout"
+import SEO from "../../components/Seo"
 
-const Studio = () => {
-    return (
-        <IndexLayout>
-            <h1>Studio</h1>
-        </IndexLayout>
-    );
-}
+const IndexPage = () => (
+  <PageLayout>
+    <SEO title="The Hideout Studio" />
+  </PageLayout>
+)
 
-export default Studio;
+export default IndexPage

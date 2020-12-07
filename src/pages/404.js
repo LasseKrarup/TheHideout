@@ -1,6 +1,6 @@
 import React from "react"
 
-import IndexLayout from "../components/IndexLayout"
+import IndexLayout from "../layouts/IndexLayout"
 import SEO from "../components/Seo"
 
 const NotFoundPage = () => (
