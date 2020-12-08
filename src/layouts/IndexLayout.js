@@ -27,8 +27,10 @@ const IndexLayout = ({ children }) => {
   return (
     <div className="flex flex-col min-h-screen">
       <Hero title="The HideOut Studio" />
-      <Slideover />
-        <main className="flex-grow container mx-auto">{children}</main>
+      <Slideover/>
+        <main className="flex-grow container mx-auto">
+          {children}
+        </main>
       <Footer />
     </div>
   )
