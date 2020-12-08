@@ -15,10 +15,10 @@ const Slideover = (props) => {
     const AnimatedX = animated(X)
 
     const swipeHandler = useSwipeable({
-        onSwipedRight: e => {isVisible && setIsVisible(false); console.log("swiped right")}
+        onSwipedRight: e => isVisible && setIsVisible(false)
     })
     const buttonSwipeHandler = useSwipeable({
-      onSwipedLeft: e => {setIsVisible(true); console.log("swiped left")}
+      onSwipedLeft: e => setIsVisible(true)
     })
   
     
@@ -29,7 +29,6 @@ const Slideover = (props) => {
     })
 
     const [ref, {width}] = useMeasure()
-    console.log(width)
     const {opacity: overlayO} = useSpring({
         from: {opacity: 0},
         opacity: isVisible ? 0.7 : 0,

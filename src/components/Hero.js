@@ -21,7 +21,6 @@ const Hero = (props) => {
       })
 
     const title = props.title.split(" ")
-    // const transformY = y.to(y => {console.log(y); return `translateY(${y}px)`})
 
     return (
         <div className="h-screen bg-black text-white flex flex-col justify-center relative">
