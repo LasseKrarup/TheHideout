@@ -76,7 +76,8 @@ const Slideover = (props) => {
 }
 
 Slideover.defaultProps = {
-    isVisible: false
+    isVisible: false,
+    title: "Menu"
 }
 
 Slideover.propTypes = {
