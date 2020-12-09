@@ -10,7 +10,7 @@ const VideoHelper = ({src}) => {
         videoElement.setAttribute('muted', '')
     }, [])
     return (
-        <video ref={videoRef} autoPlay playsInline muted loop className="absolute inset-0 m-auto max-w-none h-screen overflow-hidden" style={{minWidth: "50%", minHeight: "50%"}}>
+        <video ref={videoRef} autoPlay playsInline muted loop className="absolute inset-0 m-auto max-w-none overflow-hidden" style={{minWidth: "50%", minHeight: "50%"}}>
             <source src={src} type="video/mp4" />
             Browser doesn't support the video tag.
         </video>
@@ -35,7 +35,7 @@ const MediaBackground = ({src}) => {
     const [srcType] = useState(typeof src)
 
     return (
-        <div className="overflow-hidden absolute inset-0 w-screen h-screen max-w-full" style={{zIndex: -10}}>
+        <div className="overflow-hidden absolute inset-0 w-screen h-screen max-w-full">
             <div className="absolute -left-1/2 -top-1/2 mx-auto overflow-hidden" style={{width: "200%", height: "200%"}}>
                 {srcType === "string" ? <VideoHelper src={src} /> : <ImageHelper src={src} />}
             </div>

@@ -43,7 +43,7 @@ const Slideover = (props) => {
     }
 
     return (
-<div className={`fixed inset-0 overflow-hidden ${!isVisible && "pointer-events-none" }`}>
+<div className={`fixed inset-0 z-20 overflow-hidden ${!isVisible && "pointer-events-none" }`}>
   <div className="absolute inset-0 overflow-hidden">
       {/* Overlay */}
     <animated.div onClick={handleClick} className="absolute inset-0 bg-gray-500" style={{opacity: overlayO}} aria-hidden="true"></animated.div>
