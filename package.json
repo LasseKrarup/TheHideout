@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "codemirror": "^5.58.3",
     "fontsource-major-mono-display": "^3.0.5",
     "fontsource-roboto-mono": "^3.0.3",
     "gatsby": "^2.26.1",
@@ -21,18 +23,28 @@
     "gatsby-transformer-json": "^2.6.0",
     "gatsby-transformer-remark": "^2.11.1",
     "gatsby-transformer-sharp": "^2.6.0",
+    "immutable": "^3.7.6",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
     "netlify-cms-app": "^2.13.3",
+    "netlify-cms-lib-widgets": "^1.6.0",
     "postcss": "^8.1.10",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
+    "react-intersection-observer": "^8.31.0",
+    "react-router": "^5",
     "react-spring": "^9.0.0-rc.3",
     "react-swipeable": "^6.0.1",
+    "redux": "^3",
     "replace-in-file": "^6.1.0",
     "resize-observer-polyfill": "^1.5.1",
+    "seamless-immutable": "^7",
     "tailwindcss": "^2.0.1",
-    "uuid": "^8.3.1"
+    "typescript": "^4.1.2",
+    "uuid": "^8.3.1",
+    "webpack": "^5.10.0"
   },
   "devDependencies": {
     "prettier": "2.1.2"
