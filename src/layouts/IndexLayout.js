@@ -5,7 +5,7 @@
  * See: https://www.gatsbyjs.com/docs/use-static-query/
  */
 
-import React from "react"
+import React, {useRef} from "react"
 import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
 
@@ -23,10 +23,11 @@ const IndexLayout = ({ children }) => {
   //     }
   //   }
   // `)
+  const heroNavRef = useRef()
 
   return (
-    <div className="flex flex-col min-h-screen">
-      <Hero title="The HideOut Studio" />
+    <div className="flex flex-col min-h-screen bg-black text-white">
+      <Hero ref={heroNavRef} title="The HideOut Studio" />
       <Slideover />
         <main className="flex-grow container mx-auto">
           {children}
