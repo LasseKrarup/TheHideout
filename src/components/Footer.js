@@ -8,7 +8,7 @@ const Footer = () => {
                     The HideOut Studio
                 </li>
                 <li>
-                    Karnersvej, Aalborg [DK]
+                    Aalborg [DK]
                 </li>
                 <li>
                     CVR: 35014640
