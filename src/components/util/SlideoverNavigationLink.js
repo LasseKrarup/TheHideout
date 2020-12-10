@@ -34,7 +34,7 @@ const SlideoverNavigationLink = ({link, isToggled: propIsToggled}) => {
                 <Link to={link.slug} className="hover:text-yellow-300 text-xl">
                     {link.title}
                 </Link>
-                <div onClick={handleClick} onKeyDown={handleKeyDown} role="button" aria-label="menu-button" tabIndex="0" className={`w-0 h-0 border-8 ml-2 ${isToggled ? "transform rotate-180 mb-2" : "mt-3"}`} style={{borderColor: "transparent", borderTopColor: "yellow"}}></div>
+                <div onClick={handleClick} onKeyDown={handleKeyDown} role="button" aria-label="menu-button" tabIndex="0" className={`w-0 h-0 border-8 ml-2 focus:outline-none ${isToggled ? "transform rotate-180 mb-2" : "mt-3"}`} style={{borderColor: "transparent", borderTopColor: "yellow"}}></div>
             </div>
             <animated.ul className="relative overflow-hidden"
                 style={{

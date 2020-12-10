@@ -11,7 +11,8 @@ import PropTypes from "prop-types"
 
 import Footer from "../components/Footer"
 import Slideover from "../components/util/Slideover"
-import PageHero from "../components/PageHero"
+import Paragraph from "../components/atoms/Paragraph"
+import ButtonLink from "../components/atoms/ButtonLink"
 
 const PageLayout = ({ children }) => {
   // const data = useStaticQuery(graphql`
@@ -26,9 +27,14 @@ const PageLayout = ({ children }) => {
 
   return (
     <div className="flex flex-col min-h-screen bg-black">
-      <PageHero title="Studio" />
       <Slideover />
-        <main className="flex-grow container mx-auto">{children}</main>
+        <main className="flex-grow container mx-auto">
+          {children}
+          <Paragraph className="text-center flex flex-col">
+            Want to contact us?
+            <ButtonLink className="my-4 mx-auto block" to="/contact">Contact page</ButtonLink>
+          </Paragraph>  
+        </main>
       <Footer />
     </div>
   )

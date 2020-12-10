@@ -6,6 +6,7 @@ import { useSwipeable } from "react-swipeable"
 
 import { Menu, X } from "../../icons/icons"
 import SlideoverNavigation from './SlideoverNavigation';
+import { Link } from 'gatsby';
 
 const Slideover = (props) => {
     const [isVisible, setIsVisible] = useState(false)
@@ -67,7 +68,7 @@ const Slideover = (props) => {
         <div ref={ref} className="h-full flex flex-col py-6 bg-gray-800 shadow-xl overflow-y-scroll">
           <div className="px-4 sm:px-6">
             <h2 id="slide-over-heading" className="text-lg font-medium text-white">
-              {props.title}
+            <Link to="/" className="text-2xl font-heading tracking-wide lowercase">The <span className="text-yellow-300">HideOut</span> Studio</Link>
             </h2>
           </div>
           <div {...swipeHandler} className="mt-6 relative flex-1 px-4 sm:px-6">
@@ -84,7 +85,6 @@ const Slideover = (props) => {
 
 Slideover.defaultProps = {
     isVisible: false,
-    title: "Menu"
 }
 
 Slideover.propTypes = {
