@@ -35,7 +35,7 @@
     "react-helmet": "^6.1.0",
     "react-intersection-observer": "^8.31.0",
     "react-router": "^5",
-    "react-spring": "^9.0.0-rc.3",
+    "react-spring": "npm:@react-spring/web@^9.0.0-rc.3",
     "react-swipeable": "^6.0.1",
     "redux": "^3",
     "replace-in-file": "^6.1.0",

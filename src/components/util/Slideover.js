@@ -21,7 +21,6 @@ const Slideover = (props) => {
       onSwipedLeft: e => setIsVisible(true)
     })
   
-    
     const rotateTransition = useTransition(isVisible, {
         from: {transform: "rotate(-180deg)", opacity: 0},
         enter: {transform: "rotate(0deg)", opacity: 1},
@@ -53,7 +52,7 @@ const Slideover = (props) => {
         <div className="absolute top-0 left-0 -ml-8 pt-4 pr-2 flex sm:-ml-10 sm:pr-4">
           <button {...buttonSwipeHandler} onClick={handleClick} className="rounded-md text-gray-300 hover:text-white focus:outline-none">
             {rotateTransition((style, isVisible) => {
-                return isVisible ? <AnimatedX style={style} className={"absolute inset-auto"} key={uuid()} /> : <AnimatedMenu style={style} className={"absolute inset-auto"} key={uuid()} />
+                return isVisible ? <AnimatedX style={style} className={"absolute inset-auto"} /> : <AnimatedMenu style={style} className={"absolute inset-auto"} />
             })}
           </button>
         </div>
