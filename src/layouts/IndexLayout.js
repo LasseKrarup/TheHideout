@@ -29,7 +29,7 @@ const IndexLayout = ({ children }) => {
   return (
     <div className="flex flex-col min-h-screen bg-black text-white">
       <Hero ref={heroNavRef} title="The HideOut Studio" />
-      <Slideover buttonVisible={!navInView} />
+      <Slideover navInView={navInView} />
         <main className="flex-grow container mx-auto">
           {children}
         </main>

@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import PropTypes from 'prop-types';
-import { useSpring, animated, useTransition } from 'react-spring';
+import { useSpring, animated, useTransition, useChain } from 'react-spring';
 import { useMeasure } from "../../hooks/useMeasure"
 import { useSwipeable } from "react-swipeable"
-import {v4 as uuid} from "uuid"
 
 import { Menu, X } from "../../icons/icons"
 import SlideoverNavigation from './SlideoverNavigation';
@@ -21,11 +20,20 @@ const Slideover = (props) => {
       onSwipedLeft: e => setIsVisible(true)
     })
   
+    const buttonVisible = !props.navInView || isVisible
+    const springRef = useRef()
+    const {opacity: buttonO} = useSpring({from: {opacity: 0}, opacity: buttonVisible ? 1 : 0, ref: springRef})
+
+    const transitionRef = useRef()
     const rotateTransition = useTransition(isVisible, {
         from: {transform: "rotate(-180deg)", opacity: 0},
         enter: {transform: "rotate(0deg)", opacity: 1},
         leave: {transform: "rotate(0deg)", opacity: 0},
+        ref: transitionRef
     })
+
+    // useChain(isVisible ? [springRef, transitionRef] : [transitionRef, springRef])
+    useChain([springRef, transitionRef], [0, 0.1])
 
     const [ref, {width}] = useMeasure()
     const {opacity: overlayO} = useSpring({
@@ -50,11 +58,11 @@ const Slideover = (props) => {
         {/* Slide over panel */}
       <animated.div className="relative w-screen max-w-md pointer-events-auto transform translate-x-full" style={{transform: slideT.to([0,1], [0,width]).to(t => `translateX(${t}px)`)}}>
         <div className="absolute top-0 left-0 -ml-8 pt-4 pr-2 flex sm:-ml-10 sm:pr-4">
-          <button {...buttonSwipeHandler} onClick={handleClick} className="rounded-md text-gray-300 hover:text-white focus:outline-none">
+          <animated.button {...buttonSwipeHandler} onClick={handleClick} className="rounded-md text-gray-300 hover:text-white focus:outline-none" style={{opacity: buttonO.to(o=>o)}}>
             {rotateTransition((style, isVisible) => {
                 return isVisible ? <AnimatedX style={style} className={"absolute inset-auto"} /> : <AnimatedMenu style={style} className={"absolute inset-auto"} />
             })}
-          </button>
+          </animated.button>
         </div>
         <div ref={ref} className="h-full flex flex-col py-6 bg-gray-800 shadow-xl overflow-y-scroll">
           <div className="px-4 sm:px-6">
