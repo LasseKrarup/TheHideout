@@ -9,9 +9,9 @@ import React from "react"
 import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
 
-import Hero from "../components/Hero"
 import Footer from "../components/Footer"
 import Slideover from "../components/util/Slideover"
+import PageHero from "../components/PageHero"
 
 const PageLayout = ({ children }) => {
   // const data = useStaticQuery(graphql`
@@ -25,8 +25,8 @@ const PageLayout = ({ children }) => {
   // `)
 
   return (
-    <div className="flex flex-col min-h-screen">
-      <Hero title="The HideOut Studio" />
+    <div className="flex flex-col min-h-screen bg-black">
+      <PageHero title="Studio" />
       <Slideover />
         <main className="flex-grow container mx-auto">{children}</main>
       <Footer />

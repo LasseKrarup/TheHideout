@@ -6,7 +6,7 @@ import SEO from "../../components/Seo"
 
 const IndexPage = () => (
   <PageLayout>
-    <SEO title="The Hideout Studio" />
+    <SEO title="Studio" />
   </PageLayout>
 )
 
