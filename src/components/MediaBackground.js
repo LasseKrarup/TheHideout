@@ -8,10 +8,9 @@ const VideoHelper = ({src}) => {
     useEffect(() => {
         const { current: videoElement } = videoRef
         videoElement.defaultMuted = true
-        // videoElement.muted = true
     }, [])
     return (
-        <video ref={videoRef} muted autoPlay playsInline loop className="absolute inset-0 m-auto max-w-none overflow-hidden" style={{minWidth: "50%", minHeight: "50%"}}>
+        <video ref={videoRef} loop muted playsInline autoPlay className="absolute inset-0 m-auto max-w-none overflow-hidden" style={{minWidth: "50%", minHeight: "50%"}}>
             <source src={src} type="video/mp4" />
             Browser doesn't support the video tag.
         </video>
