@@ -18,10 +18,6 @@ const IndexSection = ({src, alt, title, children}) => {
         <div className="relative z-10 text-gray-300 p-4">
           {children}
         </div>
-        {/* <div className="relative overflow-hidden h-full">
-          <img src={src} alt={alt} className="opacity-75" />
-          <div className="bg-gradient-to-b from-black via-transparent to-black absolute inset-0"></div>
-        </div> */}
         <GradientImage src={src} alt={alt} />
       </div>
     </section>
@@ -33,7 +29,7 @@ const IndexPage = () => (
     <SEO title="The Hideout Studio" />
 
     <section className="px-2 my-8">
-      <h2 className="text-2xl">Studio in the heart of Aalborg, DK</h2>
+      <h2 className="text-2xl">Studio in the heart of Aalborg,&nbsp;DK</h2>
       <Paragraph>
         I'm baby retro synth ennui, plaid 8-bit freegan put a bird on it four dollar toast kinfolk migas chartreuse authentic. Vice photo booth keytar, ennui hella stumptown ramps poke twee narwhal. Subway tile copper mug echo park wayfarers edison bulb actually lo-fi poutine jianbing umami selfies tote bag ramps.
       </Paragraph>

@@ -4,12 +4,12 @@ import { v4 as uuid } from "uuid"
 
 import SlideoverNavigationLink from './SlideoverNavigationLink';
 
-const SlideoverNavigation = () => {
+const SlideoverNavigation = ({closeSlideover}) => {
     return (
         <ul className={`py-2 w-full top-8 px-2 border-white border rounded-md text-white`}>
             {    
                 navigation.map(item => (
-                    <SlideoverNavigationLink key={uuid()} link={item} />
+                    <SlideoverNavigationLink key={uuid()} link={item} closeSlideover={closeSlideover} />
                 ))
             }
         </ul>

@@ -10,20 +10,10 @@ import Section from "../../components/Section"
 import StudioImage from "../../images/studio/leo-wieling-bG8U3kaZltE-unsplash.jpg"
 import Subheading from "../../components/atoms/Subheading"
 import GradientImage from "../../components/util/GradientImage"
+import PriceExample from "../../components/util/PriceExample"
 
-const PriceExample = ({title, children, price}) => (
-  <div className="pb-4">
-      <h4 className="uppercase tracking-wider text-lg">{title}</h4>
-      <Paragraph>
-        {children}
-      </Paragraph>
-      <Paragraph>
-        Price example: <strong>{price}</strong>
-      </Paragraph>
-  </div>
-)
 
-const IndexPage = () => {
+const StudioPage = () => {
   return(
     <PageLayout>
       <SEO title="Studio" />
@@ -54,4 +44,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default StudioPage

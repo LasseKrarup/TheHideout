@@ -1,8 +1,10 @@
+import { Link } from 'gatsby';
 import React from 'react';
 
 const Footer = () => {
     return (
         <footer className="flex flex-col bg-black py-4 text-gray-400 text-center">
+            <Link to="/" className="text-white">Home</Link>
             <ul className="list-none">
                 <li>
                     The HideOut Studio

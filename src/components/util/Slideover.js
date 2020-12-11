@@ -23,7 +23,7 @@ const Slideover = (props) => {
   
     const buttonVisible = !props.navInView || isVisible
     const springRef = useRef()
-    const {opacity: buttonO} = useSpring({from: {opacity: 0}, opacity: buttonVisible ? 1 : 0, ref: springRef})
+    const {opacity: buttonO} = useSpring({from: {opacity: 0}, opacity: buttonVisible ? 1 : 0.3, ref: springRef})
 
     const transitionRef = useRef()
     const rotateTransition = useTransition(isVisible, {
@@ -49,6 +49,10 @@ const Slideover = (props) => {
     const handleClick = e => {
         setIsVisible(!isVisible)
     }
+    const onHomelinkClick = e => {
+      setIsVisible(false)
+    }
+    const closeSlideover = () => setIsVisible(false)
 
     return (
 <div className={`fixed inset-0 z-20 overflow-hidden ${!isVisible && "pointer-events-none" }`}>
@@ -68,12 +72,12 @@ const Slideover = (props) => {
         <div ref={ref} className="h-full flex flex-col py-6 bg-gray-800 shadow-xl overflow-y-scroll">
           <div className="px-4 sm:px-6">
             <h2 id="slide-over-heading" className="text-lg font-medium text-white">
-            <Link to="/" className="text-2xl font-heading tracking-wide lowercase">The <span className="text-yellow-300">HideOut</span> Studio</Link>
+            <Link to="/" onClick={onHomelinkClick} className="text-2xl font-heading tracking-wide lowercase">The <span className="text-yellow-300">HideOut</span> Studio</Link>
             </h2>
           </div>
           <div {...swipeHandler} className="mt-6 relative flex-1 px-4 sm:px-6">
             {/* Content goes here */}
-            <SlideoverNavigation />
+            <SlideoverNavigation closeSlideover={closeSlideover} />
           </div>
         </div>
       </animated.div>

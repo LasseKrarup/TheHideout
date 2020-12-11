@@ -6,11 +6,16 @@ import { Link } from 'gatsby';
 import { v4 as uuid } from "uuid"
 import path from "path"
 
-const SlideoverNavigationLink = ({link, isToggled: propIsToggled}) => {
+const SlideoverNavigationLink = ({link, isToggled: propIsToggled, closeSlideover}) => {
     const [isToggled, setIsToggled] = useState(propIsToggled)
     const [ref, {height}] = useMeasure()
 
     const handleClick = e => {
+        setIsToggled(!isToggled)
+    }
+    const handleLinkClick = e => {
+        !isToggled && e.preventDefault()
+        isToggled && closeSlideover()
         setIsToggled(!isToggled)
     }
 
@@ -31,7 +36,7 @@ const SlideoverNavigationLink = ({link, isToggled: propIsToggled}) => {
     return (
         <li className="py-1 border-b last:border-b-0 border-gray-600">
             <div className="flex items-center">
-                <Link to={link.slug} className="hover:text-yellow-300 text-xl">
+                <Link to={link.slug} onClick={handleLinkClick} className="hover:text-yellow-300 text-xl">
                     {link.title}
                 </Link>
                 <div onClick={handleClick} onKeyDown={handleKeyDown} role="button" aria-label="menu-button" tabIndex="0" className={`w-0 h-0 border-8 ml-2 focus:outline-none ${isToggled ? "transform rotate-180 mb-2" : "mt-3"}`} style={{borderColor: "transparent", borderTopColor: "yellow"}}></div>

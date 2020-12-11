@@ -32,7 +32,7 @@ const PageLayout = ({ children }) => {
           {children}
           <Paragraph className="text-center flex flex-col">
             Want to contact us?
-            <ButtonLink className="my-4 mx-auto block" to="/contact">Contact page</ButtonLink>
+            <ButtonLink className="my-4 mx-auto block" to="/about/contact">Contact page</ButtonLink>
           </Paragraph>  
         </main>
       <Footer />
