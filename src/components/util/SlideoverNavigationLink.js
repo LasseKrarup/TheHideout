@@ -50,7 +50,7 @@ const SlideoverNavigationLink = ({link, isToggled: propIsToggled, closeSlideover
                 <div ref={ref}>
                     {link.sub.map(sublink => (
                         <li key={uuid()}>
-                            <Link className="hover:text-yellow-300 ml-4 text-gray-200" to={path.join(link.slug, sublink.slug)}>{sublink.title}</Link>
+                            <Link onClick={handleLinkClick} className="hover:text-yellow-300 ml-4 text-gray-200" to={path.join(link.slug, sublink.slug)}>{sublink.title}</Link>
                         </li>
                     ))}
                 </div>
