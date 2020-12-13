@@ -5,7 +5,7 @@ import { Link } from "gatsby";
 import Dropdown from './Dropdown';
 import useClickOutside from "../../hooks/clickOutside"
 
-const NavlinkToplevel = ({title, slug, sub}) => {
+const NavlinkToplevel = ({title, slug, sub, className}) => {
     const [dropdownActive, setDropdownActive] = useState(false)
     const handleClick = e => {
         setDropdownActive(!dropdownActive)
@@ -24,13 +24,20 @@ const NavlinkToplevel = ({title, slug, sub}) => {
             }
         }
     }
+    const handleMouseEnter = () => {
+        setDropdownActive(true)
+    }
+    const handleMouseLeave = () => {
+        setDropdownActive(false)
+    }
 
     const domRef = useClickOutside(handleClickOutside)
 
     return (
         <>
-            <li ref={domRef} className="mr-6 last:mr-0 relative">
-                <div className="flex md:flex-col items-center">
+            {/* eslint-disable-next-line */}
+            <li ref={domRef} className={"mr-6 last:mr-0 relative " + className} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                <div className="flex items-center">
                     <Link to={slug} onClick={handleLinkClick} className="hover:text-yellow-300">
                         {title}
                     </Link>

@@ -14,7 +14,7 @@ const Subheading = ({title}) => {
       delay: 250
     })
     return (
-        <h3 ref={ref} className="px-8 font-heading text-xl text-white lowercase flex flex-wrap">
+        <h3 ref={ref} className="px-8 font-heading text-xl xl:text-2xl text-white lowercase flex flex-wrap">
         {subheaderTrail.map(({transform}, i) => (
           <animated.span key={uuid()} className="text-white mr-4" style={{transform: transform.to(t => `rotateX(${t}deg)`)}}>{subheading[i]}</animated.span>
         ))}

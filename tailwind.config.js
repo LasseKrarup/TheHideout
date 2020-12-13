@@ -11,6 +11,10 @@ module.exports = {
           ...defaultTheme.fontFamily.mono
         ],
         heading: ["Major Mono Display", ...defaultTheme.fontFamily.sans]
+      },
+      borderWidth: {
+        "16": "16px",
+        "32": "32px"
       }
     },
   },

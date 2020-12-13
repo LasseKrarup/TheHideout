@@ -62,10 +62,10 @@ const Slideover = (props) => {
     <section className="absolute inset-y-0 right-0 pl-10 max-w-full flex" aria-labelledby="slide-over-heading">
         {/* Slide over panel */}
       <animated.div className="relative w-screen max-w-md pointer-events-auto transform translate-x-full" style={{transform: slideT.to([0,1], [0,width]).to(t => `translateX(${t}px)`)}}>
-        <div className="absolute top-0 left-0 -ml-8 pt-4 pr-2 flex sm:-ml-10 sm:pr-4">
-          <animated.button {...buttonSwipeHandler} onClick={handleClick} className="rounded-md text-gray-300 hover:text-white focus:outline-none" style={{opacity: buttonO.to(o=>o)}}>
+        <div className="absolute top-0 left-0 -ml-8 pt-4 pr-4 flex sm:pr-8">
+          <animated.button {...buttonSwipeHandler} onClick={handleClick} className="rounded-md w-6 h-6 ring-2 ring-white text-gray-300 hover:text-white focus:outline-none" style={{opacity: buttonO.to(o=>o)}}>
             {rotateTransition((style, isVisible) => {
-                return isVisible ? <AnimatedX style={style} className={"absolute inset-auto"} /> : <AnimatedMenu style={style} className={"absolute inset-auto"} />
+                return isVisible ? <AnimatedX style={style} className={"absolute inset-y-4"} /> : <AnimatedMenu style={style} className={"absolute inset-y-4"} />
             })}
           </animated.button>
         </div>
