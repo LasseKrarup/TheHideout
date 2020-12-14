@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "the-hideout-studio",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Webpage of The Hideout Studio",
+  "version": "1.0",
+  "author": "Lasse Krarup <me@lassekrarup.com>",
   "dependencies": {
     "autoprefixer": "^10.1.0",
     "codemirror": "^5.58.3",
@@ -60,7 +60,6 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "0BSD",
   "scripts": {
     "build": "node postinstall.js && gatsby build",
     "develop": "node postinstall.js && gatsby develop",
