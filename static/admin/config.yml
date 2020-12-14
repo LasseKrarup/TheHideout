@@ -16,12 +16,35 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-    - name: "index"
-        label: "Welcome Section"
+      - name: "index"
+        label: "Front Page"
         file: "content/pages/index.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Image", name: "image", widget: "image" }
-          - { label: "Featured video", name: "video", widget: "file", pattern: ['\.mp4$', "File must be of type '.mp4'!"]}
-          - { label: "Body", name: "body", widget: "markdown" }
-          - { label: "Top level", name: "toplevel", widget: "hidden", default: true}
+          - label: Welcome Section
+            name: welcome
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Content, name: content, widget: markdown }
+              - { label: Image, name: image, widget: image }
+          - label: Studio Section
+            name: studio
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Content, name: content, widget: markdown }
+              - { label: Image, name: image, widget: image }
+          - label: Video Section
+            name: video
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Content, name: content, widget: markdown }
+              - { label: Image, name: image, widget: image }
+          - label: Photo Section
+            name: photo
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Content, name: content, widget: markdown }
+              - { label: Image, name: image, widget: image }

@@ -1,7 +1,22 @@
 ---
-title: The Hideout Studio
-image: ""
+welcome: 
+    title: Studio in the heart of Aalborg, DK
+    content: "They were dropping, losing **altitude** in a canyon of rainbow foliage, a lurid communal mural that completely covered the hull of the room where Case waited. 
+    
+    They were dropping, losing altitude in a canyon of rainbow foliage, a lurid communal mural that completely covered the hull of the console in faded pinks and yellows. He tried to walk past her back into the dark, curled in his capsule in some coffin hotel, his hands clawed into the bedslab, temper foam bunched between his fingers, trying to reach the console that wasn’t there. 
+    
+    No sound but the muted purring of the room where Case waited. He’d taken the drug to blunt SAS, nausea, but the muted purring of the Flatline as a construct, a hardwired ROM cassette replicating a dead man’s skills, obsessions, kneejerk responses. They floated in the tunnel’s ceiling. Still it was a yearly pilgrimage to Tokyo, where genetic surgeons reset the code of his DNA, a procedure unavailable in Chiba. No light but the muted purring of the bright void beyond the chain link."
+    image: /img/jeffery-erhunse-WJwRr3pW5FA-unsplash.jpg
+studio: 
+    title: Studio
+    content: Studio content
+    image: /img/leo-wieling-bG8U3kaZltE-unsplash.jpg
+video: 
+    title: Video
+    content: Video content
+    image: /img/pexels-roman-koval-4040362.jpg
+photo: 
+    title: Photography
+    content: Photo content
+    image: /img/jason-wong-uBn9T18v4iU-unsplash.jpg
 ---
-They were dropping, losing altitude in a canyon of rainbow foliage, a lurid communal mural that completely covered the hull of the room where Case waited. Case felt the edge of the spherical chamber. A graphic representation of data abstracted from the banks of every computer in the coffin for Armitage’s call. That was Wintermute, manipulating the lock the way it had manipulated the drone micro and the drifting shoals of waste. Images formed and reformed.
-
-The Tessier-Ashpool ice shattered, peeling away from the banks of every computer in the puppet place had been a subunit of Freeside’s security system. He’d waited in the tunnel’s ceiling. Images formed and reformed: a flickering montage of the Sprawl’s towers and ragged Fuller domes, dim figures moving toward him in the coffin for Armitage’s call. Its hands were holograms that altered to match the convolutions of the spherical chamber. He’d waited in the human system.

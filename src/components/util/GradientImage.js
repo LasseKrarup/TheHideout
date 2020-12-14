@@ -9,7 +9,7 @@ const GradientImage = ({src, alt, className}) => {
         gatsbyImage = true
     }
     return (
-        <div className={`relative overflow-hidden h-full ${className}`}>
+        <div className={`relative overflow-hidden ${className}`}>
             {gatsbyImage ? 
                 <Img fluid={src} alt={alt} className="opacity-75 xl:absolute xl:inset-0 xl:m-auto" />
                 :

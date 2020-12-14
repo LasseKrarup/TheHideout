@@ -22,8 +22,8 @@ module.exports = {
     { // Keep images first for gatsby-remark-images support
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: `img`,
+        path: `${__dirname}/static/img`,
       },
     },
     {
@@ -68,8 +68,8 @@ module.exports = {
         name: `the-hideout-studio`,
         short_name: `hideout`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#000000`,
+        theme_color: `#000000`,
         display: `minimal-ui`,
         icon: `src/images/hideout-icon.png`, // This path is relative to the root of the site.
       },

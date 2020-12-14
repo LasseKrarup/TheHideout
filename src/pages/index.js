@@ -4,13 +4,11 @@ import IndexLayout from "../layouts/IndexLayout"
 import SEO from "../components/Seo"
 import Paragraph from "../components/atoms/Paragraph"
 import ButtonLink from "../components/atoms/ButtonLink"
-import TopImage from "../images/studio/jeffery-erhunse-WJwRr3pW5FA-unsplash.jpg";
-import StudioImage from "../images/studio/leo-wieling-bG8U3kaZltE-unsplash.jpg"
-import VideoImage from "../images/studio/pexels-roman-koval-4040362.jpg"
-import PhotographyImage from "../images/studio/jason-wong-uBn9T18v4iU-unsplash.jpg"
 import GradientImage from "../components/util/GradientImage"
 import { useInView } from "react-intersection-observer"
 import { useSpring, animated } from "react-spring"
+import { graphql } from "gatsby"
+import Markdown from "../components/util/Markdown"
 
 const IndexSection = ({src, alt, title, children, className, prominent, reverse}) => {
   const [ref, inView] = useInView({
@@ -44,49 +42,83 @@ IndexSection.defaultProps = {
   prominent: false
 }
 
-const IndexPage = () => (
-  <IndexLayout>
-    <SEO title="The Hideout Studio" />
+const IndexPage = ({data}) => {
+  const {markdownRemark: {frontmatter: sections}} = data
+  
+  return(
+    <IndexLayout>
+      <SEO title="The Hideout Studio" />
+      <IndexSection className="mt-8" src={sections.welcome.image.childImageSharp.fluid} alt="Guy in studio" title={sections.welcome.title} prominent>
+        <Markdown>
+          {sections.welcome.content}
+        </Markdown>
+      </IndexSection>
 
-    <IndexSection className="mt-8" src={TopImage} alt="Guy in studio" title="Studio in the heart of Aalborg,&nbsp;DK" prominent>
-      <Paragraph>
-        I'm baby retro synth ennui, plaid 8-bit freegan put a bird on it four dollar toast kinfolk migas chartreuse authentic. Vice photo booth keytar, ennui hella stumptown ramps poke twee narwhal. Subway tile copper mug echo park wayfarers edison bulb actually lo-fi poutine jianbing umami selfies tote bag ramps.
-      </Paragraph>
-    </IndexSection>
+      <IndexSection src={sections.studio.image.childImageSharp.fluid} alt="Studio stuff" title={sections.studio.title}>
+        <Markdown>
+          {sections.studio.content}
+        </Markdown>
+        <Paragraph>Read more on our <ButtonLink to="/studio">Studio page</ButtonLink>
+        </Paragraph>
+      </IndexSection>
 
-    <IndexSection src={StudioImage} alt="Studio stuff" title="Studio">
-      <Paragraph>
-        We do high class studio recordings in our amazing facilities. Our mixing and mastering engineer is there to see your product through to the end.
-      </Paragraph>
-      <Paragraph>
-        Whether you want to record a single, an EP or an album, we've got you covered. We also do live streams. 
-      </Paragraph>
-      <Paragraph>Read more on our <ButtonLink to="/studio">Studio page</ButtonLink>
-      </Paragraph>
-    </IndexSection>
+      <IndexSection src={sections.video.image.childImageSharp.fluid} alt="Video camera" title={sections.video.title} reverse>
+        <Markdown>
+          {sections.video.content}
+        </Markdown>
+        <Paragraph>
+          Read more on our <ButtonLink to="/video">Video page</ButtonLink>
+        </Paragraph>
+      </IndexSection>
 
-    <IndexSection src={VideoImage} alt="Video camera" title="Video" reverse>
-      <Paragraph>
-        The <span className="text-yellow-300">HideOut</span> Studio also specializes in shooting video content, whether for music videos or live sessions.
-      </Paragraph>
-      <Paragraph>
-        We can also arrange for any sort of promotional video. Feel free to contact us for more info.
-      </Paragraph>
-      <Paragraph>
-        Read more on our <ButtonLink to="/video">Video page</ButtonLink>
-      </Paragraph>
-    </IndexSection>
+      <IndexSection src={sections.photo.image.childImageSharp.fluid} alt="Photography cam" title={sections.photo.title}>
+        <Markdown>
+            {sections.photo.content}
+        </Markdown>
+        <Paragraph>
+          Read more on our <ButtonLink to="/photography">Photo page</ButtonLink>
+        </Paragraph>
+      </IndexSection>
 
-    <IndexSection src={PhotographyImage} alt="Photography cam" title="Photography">
-      <Paragraph>
-        If you need any kind of photo material, we can supply that as well. With experience in both head shots, concert  photos or cover photos for any kind of publications, you're in safe hands with us.
-      </Paragraph>
-      <Paragraph>
-        Read more on our <ButtonLink to="/photography">Photo page</ButtonLink>
-      </Paragraph>
-    </IndexSection>
-
-  </IndexLayout>
-)
+    </IndexLayout>
+  )
+}
 
 export default IndexPage
+
+export const query = graphql`
+query {
+  markdownRemark(fields: {slug: {eq: "/"}}) {
+    frontmatter {
+      welcome {
+        content
+        title
+        image {
+          ...ImageFragment
+        }
+      }
+      studio {
+        content
+        title
+        image {
+          ...ImageFragment
+        }
+      }
+      video {
+        content
+        title
+        image {
+          ...ImageFragment
+        }
+      }
+      photo {
+        content
+        title
+        image {
+          ...ImageFragment
+        }
+      }
+    }
+  }
+}
+`
