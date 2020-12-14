@@ -69,7 +69,7 @@ collections:
               - { label: Example price, name: price, widget: string }
       - name: "recording"
         label: "Studio: Recording"
-        file: "content/pages/studio/recording.md"
+        file: "content/pages/studio/recording/index.md"
         fields:
           - label: Welcome Section
             name: welcome
@@ -80,7 +80,7 @@ collections:
               - { label: Image, name: image, widget: image }
       - name: "livesessions"
         label: "Studio: Live Sessions"
-        file: "content/pages/studio/livesessions.md"
+        file: "content/pages/studio/livesessions/index.md"
         fields:
           - label: Welcome Section
             name: welcome
@@ -91,7 +91,7 @@ collections:
               - { label: Image, name: image, widget: image }
       - name: "streaming"
         label: "Studio: Streaming"
-        file: "content/pages/studio/streaming.md"
+        file: "content/pages/studio/streaming/index.md"
         fields:
           - label: Welcome Section
             name: welcome
@@ -121,7 +121,7 @@ collections:
               - { label: Example price, name: price, widget: string }
       - name: "musicvideos"
         label: "Video: Music Videos"
-        file: "content/pages/video/musicvideos.md"
+        file: "content/pages/video/musicvideos/index.md"
         fields:
           - label: Welcome Section
             name: welcome
@@ -132,7 +132,7 @@ collections:
               - { label: Image, name: image, widget: image }
       - name: "promotion"
         label: "Video: Promotion"
-        file: "content/pages/video/promotion.md"
+        file: "content/pages/video/promotion/index.md"
         fields:
           - label: Welcome Section
             name: welcome
@@ -162,7 +162,7 @@ collections:
               - { label: Example price, name: price, widget: string }
       - name: "business"
         label: "Photography: Business"
-        file: "content/pages/photography/business.md"
+        file: "content/pages/photography/business/index.md"
         fields:
           - label: Welcome Section
             name: welcome
@@ -173,7 +173,7 @@ collections:
               - { label: Image, name: image, widget: image }
       - name: "concertphotography"
         label: "Photography: Concert Photography"
-        file: "content/pages/photography/concertphotography.md"
+        file: "content/pages/photography/concertphotography/index.md"
         fields:
           - label: Welcome Section
             name: welcome
@@ -195,7 +195,7 @@ collections:
               - { label: Image, name: image, widget: image }
       - name: "contact"
         label: "About: Contact"
-        file: "content/pages/about/contact.md"
+        file: "content/pages/about/contact/index.md"
         fields:
           - label: Welcome Section
             name: welcome
@@ -205,7 +205,7 @@ collections:
               - { label: Content, name: content, widget: markdown }
       - name: "pricing"
         label: "About: Pricing"
-        file: "content/pages/about/pricing.md"
+        file: "content/pages/about/pricing/index.md"
         fields:
           - label: Welcome Section
             name: welcome
