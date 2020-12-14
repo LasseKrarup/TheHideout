@@ -48,3 +48,71 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Content, name: content, widget: markdown }
               - { label: Image, name: image, widget: image }
+      - name: "studio"
+        label: "Studio Page"
+        file: "content/pages/studio/index.md"
+        fields:
+          - label: Welcome Section
+            name: welcome
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: text }
+              - { label: Content, name: content, widget: markdown }
+              - { label: Image, name: image, widget: image }
+          - label: Price examples
+            name: priceExamples
+            widget: list
+            summary: { { fields.title } }
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Content, name: content, widget: markdown }
+              - { label: Example price, name: price, widget: string }
+      - name: "video"
+        label: "Video Page"
+        file: "content/pages/video/index.md"
+        fields:
+          - label: Welcome Section
+            name: welcome
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: text }
+              - { label: Content, name: content, widget: markdown }
+              - { label: Image, name: image, widget: image }
+          - label: Price examples
+            name: priceExamples
+            widget: list
+            summary: { { fields.title } }
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Content, name: content, widget: markdown }
+              - { label: Example price, name: price, widget: string }
+      - name: "photography"
+        label: "Photography Page"
+        file: "content/pages/photoghraphy/index.md"
+        fields:
+          - label: Welcome Section
+            name: welcome
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: text }
+              - { label: Content, name: content, widget: markdown }
+              - { label: Image, name: image, widget: image }
+          - label: Price examples
+            name: priceExamples
+            widget: list
+            summary: { { fields.title } }
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Content, name: content, widget: markdown }
+              - { label: Example price, name: price, widget: string }
+      - name: "about"
+        label: "About Page"
+        file: "content/pages/about/index.md"
+        fields:
+          - label: Section
+            name: welcome
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Content, name: content, widget: markdown }
+              - { label: Image, name: image, widget: image }

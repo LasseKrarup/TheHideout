@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Img from "gatsby-image"
 
-const GradientImage = ({src, alt, className}) => {
+const GradientImage = ({src, alt, className, ...rest}) => {
     let gatsbyImage = false
     if (typeof src === "object") {
         gatsbyImage = true
     }
     return (
-        <div className={`relative overflow-hidden ${className}`}>
+        <div className={`relative overflow-hidden ${className}`} {...rest}>
             {gatsbyImage ? 
                 <Img fluid={src} alt={alt} className="opacity-75 xl:absolute xl:inset-0 xl:m-auto" />
                 :

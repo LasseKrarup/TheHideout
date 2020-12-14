@@ -1,47 +1,68 @@
 import React from "react"
-// import { Link } from "gatsby"
+import { graphql } from "gatsby"
 
 import PageLayout from "../../layouts/PageLayout"
 import SEO from "../../components/Seo"
 import PageHero from "../../components/PageHero"
-import Paragraph from "../../components/atoms/Paragraph"
+import Markdown from "../../components/util/Markdown"
 import Section from "../../components/Section"
 
-import PhotographyImage from "../../images/studio/jason-wong-uBn9T18v4iU-unsplash.jpg"
 import Subheading from "../../components/atoms/Subheading"
 import GradientImage from "../../components/util/GradientImage"
 import PriceExample from "../../components/util/PriceExample"
+import { uniqueId } from "lodash"
 
 
-const PhotographyPage = () => {
+const PhotographyPage = ({data}) => {
+  const {welcome, priceExamples} = data.markdownRemark.frontmatter
+  
   return(
     <PageLayout>
       <SEO title="Photography" />
       <PageHero title="Photography" />
 
-      <Subheading title="Stills. Headshots. Concerts." />
+      <Subheading title={welcome.title} />
 
       <Section>
-          <Paragraph className="text-gray-300">
-            After the postoperative check at the clinic, Molly took him to the Tank War, mouth touched with hot gold as a gliding cursor struck sparks from the wall between the bookcases, its distorted face sagging to the bare concrete floor. He woke and found her stretched beside him in the center of his closed left eyelid. Its hands were holograms that altered to match the convolutions of the arcade showed him broken lengths of damp chipboard and the drifting shoals of waste.
-          </Paragraph>
+          <Markdown>
+            {welcome.content}
+          </Markdown>
 
-          <GradientImage src={PhotographyImage} alt="Photography camera" />
+          <GradientImage src={welcome.image.childImageSharp.fluid} alt="Photography" style={{height: "600px"}}/>
       </Section>
 
 
       <Subheading title="Price examples" />
       <Section>
-        <PriceExample title="Headshots" price="4.000 DKK">
-          The alarm still oscillated, louder here, the rear of the spherical chamber. Its hands were holograms that altered to match the convolutions of the Villa bespeak a turning in, a denial of the bright void beyond the hull.
+        {priceExamples.map((item) => 
+        <PriceExample key={uniqueId()} title={item.title} price={item.price}>
+          {item.content}
         </PriceExample>
-
-        <PriceExample title="Concert photos" price="5.000 DKK">
-          Light from a service hatch at the rear of the Villa bespeak a turning in, a denial of the bright void beyond the hull.
-        </PriceExample>
+        )}
       </Section>
     </PageLayout>
   )
 }
 
 export default PhotographyPage
+
+export const query = graphql`
+query {
+  markdownRemark(fields: {slug: {eq: "/photography/"}}) {
+    frontmatter {
+      welcome {
+        title
+        content
+        image {
+          ...ImageFragment
+        }
+      }
+      priceExamples{
+        title
+        content
+        price
+      }
+    }
+  }
+}
+`

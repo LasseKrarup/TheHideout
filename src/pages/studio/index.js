@@ -1,47 +1,68 @@
 import React from "react"
-// import { Link } from "gatsby"
+import { graphql } from "gatsby"
 
 import PageLayout from "../../layouts/PageLayout"
 import SEO from "../../components/Seo"
 import PageHero from "../../components/PageHero"
-import Paragraph from "../../components/atoms/Paragraph"
+import Markdown from "../../components/util/Markdown"
 import Section from "../../components/Section"
 
-import StudioImage from "../../images/studio/leo-wieling-bG8U3kaZltE-unsplash.jpg"
 import Subheading from "../../components/atoms/Subheading"
 import GradientImage from "../../components/util/GradientImage"
 import PriceExample from "../../components/util/PriceExample"
+import { uniqueId } from "lodash"
 
 
-const StudioPage = () => {
+const StudioPage = ({data}) => {
+  const {welcome, priceExamples} = data.markdownRemark.frontmatter
+  
   return(
     <PageLayout>
       <SEO title="Studio" />
       <PageHero title="Studio" />
 
-      <Subheading title="Recording. Mixing. Mastering." />
+      <Subheading title={welcome.title} />
 
       <Section>
-          <Paragraph className="text-gray-300">
-            He’d waited in the center of his closed left eyelid. Case had never seen him wear the same suit twice, although his wardrobe seemed to consist entirely of meticulous reconstruction’s of garments of the blowers and the amplified breathing of the fighters. Before they could stampede, take flight from the Chinese program’s thrust, a worrying impression of solid fluidity, as though the shards of a broken mirror bent and elongated as they rotated, but it never told the correct time.
-          </Paragraph>
+          <Markdown>
+            {welcome.content}
+          </Markdown>
 
-          <GradientImage src={StudioImage} alt="Studio" />
+          <GradientImage src={welcome.image.childImageSharp.fluid} alt="Studio" style={{height: "600px"}}/>
       </Section>
 
 
       <Subheading title="Price examples" />
       <Section>
-        <PriceExample title="5 days in the studio" price="25.000 DKK">
-          The alarm still oscillated, louder here, the rear of the spherical chamber. Its hands were holograms that altered to match the convolutions of the Villa bespeak a turning in, a denial of the bright void beyond the hull.
+        {priceExamples.map((item) => 
+        <PriceExample key={uniqueId()} title={item.title} price={item.price}>
+          {item.content}
         </PriceExample>
-
-        <PriceExample title="Solo gig, 2 days" price="8.000 DKK">
-          Light from a service hatch at the rear of the Villa bespeak a turning in, a denial of the bright void beyond the hull.
-        </PriceExample>
+        )}
       </Section>
     </PageLayout>
   )
 }
 
 export default StudioPage
+
+export const query = graphql`
+query {
+  markdownRemark(fields: {slug: {eq: "/studio/"}}) {
+    frontmatter {
+      welcome {
+        title
+        content
+        image {
+          ...ImageFragment
+        }
+      }
+      priceExamples{
+        title
+        content
+        price
+      }
+    }
+  }
+}
+`

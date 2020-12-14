@@ -3,27 +3,49 @@ import React from "react"
 import PageLayout from "../../layouts/PageLayout"
 import SEO from "../../components/Seo"
 import PageHero from "../../components/PageHero"
-import Paragraph from "../../components/atoms/Paragraph"
 import Section from "../../components/Section"
 
 import Subheading from "../../components/atoms/Subheading"
+import { graphql } from "gatsby"
+import Markdown from "../../components/util/Markdown"
+import GradientImage from "../../components/util/GradientImage"
 
 
-const AboutPage = () => {
+const AboutPage = ({data}) => {
+  const {welcome} = data.markdownRemark.frontmatter
+  
   return(
     <PageLayout>
       <SEO title="About us" />
       <PageHero title="About us" />
 
-      <Subheading title="Who are we?" />
+      <Subheading title={welcome.title} />
 
       <Section>
-          <Paragraph className="text-gray-300">
-            After the postoperative check at the clinic, Molly took him to the Tank War, mouth touched with hot gold as a gliding cursor struck sparks from the wall between the bookcases, its distorted face sagging to the bare concrete floor. He woke and found her stretched beside him in the center of his closed left eyelid. Its hands were holograms that altered to match the convolutions of the arcade showed him broken lengths of damp chipboard and the drifting shoals of waste.
-          </Paragraph>
+          <Markdown>
+            {welcome.content}
+          </Markdown>
+
+          <GradientImage src={welcome.image.childImageSharp.fluid} alt="The HideOut Studio" style={{height: "600px"}}/>
       </Section>
     </PageLayout>
   )
 }
 
 export default AboutPage
+
+export const query = graphql`
+query {
+  markdownRemark(fields: {slug: {eq: "/about/"}}) {
+    frontmatter {
+      welcome {
+        title
+        content
+        image {
+          ...ImageFragment
+        }
+      }
+    }
+  }
+}
+`

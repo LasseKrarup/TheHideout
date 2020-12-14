@@ -1,47 +1,68 @@
 import React from "react"
-// import { Link } from "gatsby"
+import { graphql } from "gatsby"
 
 import PageLayout from "../../layouts/PageLayout"
 import SEO from "../../components/Seo"
 import PageHero from "../../components/PageHero"
-import Paragraph from "../../components/atoms/Paragraph"
+import Markdown from "../../components/util/Markdown"
 import Section from "../../components/Section"
 
-import VideoImage from "../../images/studio/pexels-roman-koval-4040362.jpg"
 import Subheading from "../../components/atoms/Subheading"
 import GradientImage from "../../components/util/GradientImage"
 import PriceExample from "../../components/util/PriceExample"
+import { uniqueId } from "lodash"
 
 
-const VideoPage = () => {
+const VideoPage = ({data}) => {
+  const {welcome, priceExamples} = data.markdownRemark.frontmatter
+  
   return(
     <PageLayout>
       <SEO title="Video" />
       <PageHero title="Video" />
 
-      <Subheading title="Promotion. Livestreams. MusicVideos." />
+      <Subheading title={welcome.title} />
 
       <Section>
-          <Paragraph className="text-gray-300">
-            Now this quiet courtyard, Sunday afternoon, this girl with a hand on his chest. They were dropping, losing altitude in a canyon of rainbow foliage, a lurid communal mural that completely covered the hull of the Villa bespeak a turning in, a denial of the bright void beyond the hull.
-          </Paragraph>
+          <Markdown>
+            {welcome.content}
+          </Markdown>
 
-          <GradientImage src={VideoImage} alt="Video camera" />
+          <GradientImage src={welcome.image.childImageSharp.fluid} alt="Video" style={{height: "600px"}}/>
       </Section>
 
 
       <Subheading title="Price examples" />
       <Section>
-        <PriceExample title="Music video" price="10.000 DKK">
-          The alarm still oscillated, louder here, the rear of the spherical chamber. Its hands were holograms that altered to match the convolutions of the Villa bespeak a turning in, a denial of the bright void beyond the hull.
+        {priceExamples.map((item) => 
+        <PriceExample key={uniqueId()} title={item.title} price={item.price}>
+          {item.content}
         </PriceExample>
-
-        <PriceExample title="Promotional video" price="5.000 DKK">
-          Light from a service hatch at the rear of the Villa bespeak a turning in, a denial of the bright void beyond the hull.
-        </PriceExample>
+        )}
       </Section>
     </PageLayout>
   )
 }
 
 export default VideoPage
+
+export const query = graphql`
+query {
+  markdownRemark(fields: {slug: {eq: "/video/"}}) {
+    frontmatter {
+      welcome {
+        title
+        content
+        image {
+          ...ImageFragment
+        }
+      }
+      priceExamples{
+        title
+        content
+        price
+      }
+    }
+  }
+}
+`
