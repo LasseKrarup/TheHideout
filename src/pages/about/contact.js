@@ -27,7 +27,7 @@ const ContactForm = () => {
   const {width} = useViewport()
   return(
     <div className="flex flex-col items-center overflow-hidden mb-8">
-      <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact-form" className="text-white bg-transparent flex flex-col">
+      <form method="post" action="/success" netlify-honeypot="bot-field" data-netlify="true" name="contact-form" className="text-white bg-transparent flex flex-col">
         <span className="flex items-center"><Label htmlFor="name">name</Label><Input type="text" name="name" placeholder={`${width >= 640 ? "WRITE YOUR " : ""}NAME HERE`} /></span>
         <span className="flex items-center"><Label htmlFor="email">email</Label><Input type="email" name="email" pattern=".+@.*\..+" placeholder={`${width >= 640 ? "WRITE YOUR " : ""}EMAIL HERE`} /></span>
         <span className="flex items-center"><Label htmlFor="phone">phone#</Label><Input type="text" name="phone" pattern="^\+?[0-9]+$" placeholder={`${width >= 640 ? "WRITE YOUR " : ""}PHONE# HERE`} /></span>
