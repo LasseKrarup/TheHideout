@@ -1,33 +1,51 @@
 import React from "react"
+import { graphql } from "gatsby"
 
 import PageLayout from "../../layouts/PageLayout"
 import SEO from "../../components/Seo"
 import SubPageHero from "../../components/SubPageHero"
-import Paragraph from "../../components/atoms/Paragraph"
+import Markdown from "../../components/util/Markdown"
 import Section from "../../components/Section"
 
 import Subheading from "../../components/atoms/Subheading"
+import GradientImage from "../../components/util/GradientImage"
 
 
-const MusicvideoPage = () => {
+const MusicvideosPage = ({data}) => {
+  const {welcome} = data.markdownRemark.frontmatter
+  
   return(
     <PageLayout>
       <SEO title="Music Videos" />
       <SubPageHero title="Music Videos" />
 
-      <Subheading title="Get it on video" />
+      <Subheading title={welcome.title} />
 
       <Section>
-          <Paragraph className="text-gray-300">
-            He’d waited in the center of his closed left eyelid. Case had never seen him wear the same suit twice, although his wardrobe seemed to consist entirely of meticulous reconstruction’s of garments of the blowers and the amplified breathing of the fighters. Before they could stampede, take flight from the Chinese program’s thrust, a worrying impression of solid fluidity, as though the shards of a broken mirror bent and elongated as they rotated, but it never told the correct time.
-          </Paragraph>
-          <Paragraph className="text-gray-300">
-            Case had never seen him wear the same suit twice, although his wardrobe seemed to consist entirely of meticulous reconstruction’s of garments of the bright void beyond the chain link. The Sprawl was a yearly pilgrimage to Tokyo, where genetic surgeons reset the code of his DNA, a procedure unavailable in Chiba. Then a mist closed over the black water and the dripping chassis of a broken mirror bent and elongated as they fell. Light from a service hatch at the rear wall dulling the roar of the blowers and the amplified breathing of the fighters. Its hands were holograms that altered to match the convolutions of the room where Case waited.
-          </Paragraph>
-      </Section>
+          <Markdown>
+            {welcome.content}
+          </Markdown>
 
+          {welcome.image && <GradientImage src={welcome.image.childImageSharp.fluid} alt="Music Videos" style={{height: "600px"}}/>}
+      </Section>
     </PageLayout>
   )
 }
 
-export default MusicvideoPage
+export default MusicvideosPage
+
+export const query = graphql`
+query {
+  markdownRemark(fields: {slug: {eq: "/video/musicvideos/"}}) {
+    frontmatter {
+      welcome {
+        title
+        content
+        image {
+          ...ImageFragment
+        }
+      }
+    }
+  }
+}
+`

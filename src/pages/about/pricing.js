@@ -6,33 +6,38 @@ import SubPageHero from "../../components/SubPageHero"
 import Section from "../../components/Section"
 
 import Subheading from "../../components/atoms/Subheading"
+import Markdown from "../../components/util/Markdown"
+import GradientImage from "../../components/util/GradientImage"
 import PriceExample from "../../components/util/PriceExample"
+import { graphql } from "gatsby"
+import { uniqueId } from "lodash"
 
+const PricingPage = ({data}) => {
+  const {welcome, priceExamples} = data.markdownRemark.frontmatter
 
-const PricingPage = () => {
   return(
-    <PageLayout>
+    <PageLayout isContact>
       <SEO title="Pricing" />
       <SubPageHero title="Pricing" />
 
-      <Subheading title="Price Examples" />
+      <Subheading title={welcome.title} />
 
       <Section>
-        <PriceExample title="5 days in the studio" price="25.000 DKK">
-          The alarm still oscillated, louder here, the rear of the spherical chamber. Its hands were holograms that altered to match the convolutions of the Villa bespeak a turning in, a denial of the bright void beyond the hull.
-        </PriceExample>
+          <Markdown>
+            {welcome.content}
+          </Markdown>
 
-        <PriceExample title="Solo gig, 2 days" price="8.000 DKK">
-          Light from a service hatch at the rear of the Villa bespeak a turning in, a denial of the bright void beyond the hull.
-        </PriceExample>
+          {welcome.image && 
+            <GradientImage src={welcome.image.childImageSharp.fluid} alt="Pricing" style={{height: "600px"}}/>
+          }
+      </Section>
 
-        <PriceExample title="Music video" price="10.000 DKK">
-          The alarm still oscillated, louder here, the rear of the spherical chamber. Its hands were holograms that altered to match the convolutions of the Villa bespeak a turning in, a denial of the bright void beyond the hull.
+      <Section>
+        {priceExamples.map((item) => 
+        <PriceExample key={uniqueId()} title={item.title} price={item.price}>
+          {item.content}
         </PriceExample>
-
-        <PriceExample title="Promotional video" price="5.000 DKK">
-          Light from a service hatch at the rear of the Villa bespeak a turning in, a denial of the bright void beyond the hull.
-        </PriceExample>
+        )}
       </Section>
 
     </PageLayout>
@@ -40,3 +45,24 @@ const PricingPage = () => {
 }
 
 export default PricingPage
+
+export const query = graphql`
+query {
+  markdownRemark(fields: {slug: {eq: "/about/pricing/"}}) {
+    frontmatter {
+      welcome {
+        title
+        content
+        image {
+          ...ImageFragment
+        }
+      }
+      priceExamples{
+        title
+        content
+        price
+      }
+    }
+  }
+}
+`

@@ -67,6 +67,39 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Content, name: content, widget: markdown }
               - { label: Example price, name: price, widget: string }
+      - name: "recording"
+        label: "Studio: Recording"
+        file: "content/pages/studio/recording.md"
+        fields:
+          - label: Welcome Section
+            name: welcome
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: text }
+              - { label: Content, name: content, widget: markdown }
+              - { label: Image, name: image, widget: image }
+      - name: "livesessions"
+        label: "Live Sessions (Studio Subpage)"
+        file: "content/pages/studio/livesessions.md"
+        fields:
+          - label: Welcome Section
+            name: welcome
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: text }
+              - { label: Content, name: content, widget: markdown }
+              - { label: Image, name: image, widget: image }
+      - name: "streaming"
+        label: "Studio: Streaming"
+        file: "content/pages/studio/streaming.md"
+        fields:
+          - label: Welcome Section
+            name: welcome
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: text }
+              - { label: Content, name: content, widget: markdown }
+              - { label: Image, name: image, widget: image }
       - name: "video"
         label: "Video Page"
         file: "content/pages/video/index.md"
@@ -86,6 +119,28 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Content, name: content, widget: markdown }
               - { label: Example price, name: price, widget: string }
+      - name: "musicvideos"
+        label: "Video: Music Videos"
+        file: "content/pages/video/musicvideos.md"
+        fields:
+          - label: Welcome Section
+            name: welcome
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: text }
+              - { label: Content, name: content, widget: markdown }
+              - { label: Image, name: image, widget: image }
+      - name: "promotion"
+        label: "Video: Promotion"
+        file: "content/pages/video/promotion.md"
+        fields:
+          - label: Welcome Section
+            name: welcome
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: text }
+              - { label: Content, name: content, widget: markdown }
+              - { label: Image, name: image, widget: image }
       - name: "photography"
         label: "Photography Page"
         file: "content/pages/photoghraphy/index.md"
@@ -105,6 +160,28 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Content, name: content, widget: markdown }
               - { label: Example price, name: price, widget: string }
+      - name: "business"
+        label: "Photography: Business"
+        file: "content/pages/photography/business.md"
+        fields:
+          - label: Welcome Section
+            name: welcome
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: text }
+              - { label: Content, name: content, widget: markdown }
+              - { label: Image, name: image, widget: image }
+      - name: "concertphotography"
+        label: "Photography: Concert Photography"
+        file: "content/pages/photography/concertphotography.md"
+        fields:
+          - label: Welcome Section
+            name: welcome
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: text }
+              - { label: Content, name: content, widget: markdown }
+              - { label: Image, name: image, widget: image }
       - name: "about"
         label: "About Page"
         file: "content/pages/about/index.md"
@@ -116,3 +193,31 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Content, name: content, widget: markdown }
               - { label: Image, name: image, widget: image }
+      - name: "contact"
+        label: "About: Contact"
+        file: "content/pages/about/contact.md"
+        fields:
+          - label: Welcome Section
+            name: welcome
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: text }
+              - { label: Content, name: content, widget: markdown }
+      - name: "pricing"
+        label: "About: Pricing"
+        file: "content/pages/about/pricing.md"
+        fields:
+          - label: Welcome Section
+            name: welcome
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: text }
+              - { label: Content, name: content, widget: markdown }
+          - label: Price examples
+            name: priceExamples
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Content, name: content, widget: markdown }
+              - { label: Example price, name: price, widget: string }
