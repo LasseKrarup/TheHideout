@@ -62,7 +62,7 @@ collections:
           - label: Price examples
             name: priceExamples
             widget: list
-            summary: { { fields.title } }
+            summary: "{{fields.title}}"
             fields:
               - { label: Title, name: title, widget: string }
               - { label: Content, name: content, widget: markdown }
@@ -81,7 +81,7 @@ collections:
           - label: Price examples
             name: priceExamples
             widget: list
-            summary: { { fields.title } }
+            summary: "{{fields.title}}"
             fields:
               - { label: Title, name: title, widget: string }
               - { label: Content, name: content, widget: markdown }
@@ -100,7 +100,7 @@ collections:
           - label: Price examples
             name: priceExamples
             widget: list
-            summary: { { fields.title } }
+            summary: "{{fields.title}}"
             fields:
               - { label: Title, name: title, widget: string }
               - { label: Content, name: content, widget: markdown }
