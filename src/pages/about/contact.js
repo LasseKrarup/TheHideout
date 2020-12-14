@@ -32,6 +32,7 @@ const ContactForm = () => {
         <span className="flex items-center"><Label htmlFor="email">email</Label><Input type="email" name="email" pattern=".+@.*\..+" placeholder={`${width >= 640 ? "WRITE YOUR " : ""}EMAIL HERE`} /></span>
         <span className="flex items-center"><Label htmlFor="phone">phone#</Label><Input type="text" name="phone" pattern="^\+?[0-9]+$" placeholder={`${width >= 640 ? "WRITE YOUR " : ""}PHONE# HERE`} /></span>
         <textarea className="text-gray-400 mt-2 bg-black border border-gray-600 rounded-md p-2 focus:outline-none focus:border-white" name="message" placeholder="WRITE YOUR MESSAGE HERE" rows="6"></textarea>
+        <input type="hidden" name="form-name" value="contact-form" />
         <button type="submit" className="rounded-md font-heading lowercase text-lg border border-white p-2 my-2 mr-auto">Send</button>
       </form>
     </div>
