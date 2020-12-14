@@ -1,22 +1,40 @@
 ---
-welcome: 
-    title: Studio in the heart of Aalborg, DK
-    content: "They were dropping, losing **altitude** in a canyon of rainbow foliage, a lurid communal mural that completely covered the hull of the room where Case waited. 
-    
-    They were dropping, losing altitude in a canyon of rainbow foliage, a lurid communal mural that completely covered the hull of the console in faded pinks and yellows. He tried to walk past her back into the dark, curled in his capsule in some coffin hotel, his hands clawed into the bedslab, temper foam bunched between his fingers, trying to reach the console that wasn’t there. 
-    
-    No sound but the muted purring of the room where Case waited. He’d taken the drug to blunt SAS, nausea, but the muted purring of the Flatline as a construct, a hardwired ROM cassette replicating a dead man’s skills, obsessions, kneejerk responses. They floated in the tunnel’s ceiling. Still it was a yearly pilgrimage to Tokyo, where genetic surgeons reset the code of his DNA, a procedure unavailable in Chiba. No light but the muted purring of the bright void beyond the chain link."
-    image: /img/jeffery-erhunse-WJwRr3pW5FA-unsplash.jpg
-studio: 
-    title: Studio
-    content: Studio content
-    image: /img/leo-wieling-bG8U3kaZltE-unsplash.jpg
-video: 
-    title: Video
-    content: Video content
-    image: /img/pexels-roman-koval-4040362.jpg
-photo: 
-    title: Photography
-    content: Photo content
-    image: /img/jason-wong-uBn9T18v4iU-unsplash.jpg
+welcome:
+  title: Studio in the heart of Aalborg, DK
+  content: >-
+    Narwhal listicle copper mug snackwave. Tilde forage celiac meggings raclette
+    pok pok vexillologist artisan put a bird on it fam succulents *kombucha*
+    migas cardigan organic. 
+
+
+    Readymade **deep** v irony photo booth cold-pressed food truck [XOXO](https://www.thehideout.dk), freegan hella plaid messenger bag VHS pork belly. Subway tile pour-over squid woke, fingerstache vinyl iPhone chicharrones locavore. Tote bag 90's chicharrones street art, locavore marfa pickled man bun humblebrag direct trade fingerstache schlitz. Single-origin coffee kinfolk pabst tacos +1. 
+
+
+    Ramps vegan literally, slow-carb XOXO hexagon small batch lomo +1 hashtag kombucha.
+  image: /img/jeffery-erhunse-WJwRr3pW5FA-unsplash.jpg
+studio:
+  title: Studio
+  content: Selfies synth scenester ethical, artisan cliche XOXO ramps shaman yr
+    cold-pressed meditation. 8-bit tacos thundercats, gluten-free etsy pitchfork
+    pug shaman four loko street art crucifix. Cornhole ethical asymmetrical
+    hammock kickstarter.
+  image: /img/leo-wieling-bG8U3kaZltE-unsplash.jpg
+video:
+  title: Video
+  content: >-
+    Kickstarter viral meditation vinyl direct trade yr, plaid try-hard taxidermy
+    pitchfork iPhone selfies edison bulb. La croix street art tacos gastropub
+    brunch. Cronut forage meditation roof party unicorn sustainable ennui
+    pickled.
+
+
+    YOLO microdosing enamel pin meh cornhole locavore ugh. Craft beer tousled glossier blue bottle. Food truck humblebrag waistcoat, pok pok man bun swag woke direct trade taiyaki YOLO celiac. Truffaut affogato hell of man bun.
+  image: /img/pexels-roman-koval-4040362.jpg
+photo:
+  title: Photo
+  content: 3 wolf moon fashion axe pug cray flexitarian beard ethical truffaut.
+    Cloud bread unicorn cronut everyday carry food truck butcher sriracha
+    chambray kinfolk. Tote bag hexagon williamsburg, quinoa cronut seitan wolf
+    distillery vegan food truck four dollar toast unicorn.
+  image: /img/jason-wong-uBn9T18v4iU-unsplash.jpg
 ---
