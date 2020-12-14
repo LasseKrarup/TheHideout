@@ -7,6 +7,7 @@ import { useSwipeable } from "react-swipeable"
 import { Menu, X } from "../../icons/icons"
 import SlideoverNavigation from './SlideoverNavigation';
 import { Link } from 'gatsby';
+import Logo from '../atoms/Logo';
 
 const Slideover = (props) => {
     const [isVisible, setIsVisible] = useState(false)
@@ -71,9 +72,10 @@ const Slideover = (props) => {
         </div>
         <div ref={ref} className="h-full flex flex-col py-6 bg-gray-800 shadow-xl overflow-y-scroll">
           <div className="px-4 sm:px-6">
-            <h2 id="slide-over-heading" className="text-lg font-medium text-white">
-            <Link to="/" onClick={onHomelinkClick} className="text-2xl font-heading tracking-wide lowercase">The <span className="text-yellow-300">HideOut</span> Studio</Link>
+            <h2 id="slide-over-heading" className="text-lg font-medium text-white text-center">
+              <Link to="/" onClick={onHomelinkClick} className="text-2xl font-heading tracking-wide lowercase">The <span className="text-yellow-300">HideOut</span> Studio</Link>
             </h2>
+            <Link to="/" onClick={onHomelinkClick} className="mx-auto"><Logo className="w-1/2 mx-auto my-4" /></Link>
           </div>
           <div {...swipeHandler} className="mt-6 relative flex-1 px-4 sm:px-6">
             {/* Content goes here */}

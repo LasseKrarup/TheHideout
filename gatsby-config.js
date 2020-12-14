@@ -26,6 +26,13 @@ module.exports = {
         path: `${__dirname}/static/img`,
       },
     },
+    { // Keep images first for gatsby-remark-images support
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `srcImg`,
+        path: `${__dirname}/src/images`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

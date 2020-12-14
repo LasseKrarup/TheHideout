@@ -8,23 +8,14 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useInView } from "react-intersection-observer";
-// import { useStaticQuery, graphql } from "gatsby"
 
 import Hero from "../components/Hero"
 import Footer from "../components/Footer"
 import Slideover from "../components/util/Slideover"
 
 const IndexLayout = ({ children }) => {
-  // const data = useStaticQuery(graphql`
-  //   query SiteTitleQuery {
-  //     site {
-  //       siteMetadata {
-  //         title
-  //       }
-  //     }
-  //   }
-  // `)
   const {ref: heroNavRef, inView: navInView } = useInView()
+
 
   return (
     <div className="flex flex-col min-h-screen bg-black text-white">
