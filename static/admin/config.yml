@@ -56,7 +56,7 @@ collections:
             name: welcome
             widget: object
             fields:
-              - { label: Title, name: title, widget: text }
+              - { label: Title, name: title, widget: string }
               - { label: Content, name: content, widget: markdown }
               - { label: Image, name: image, widget: image }
           - label: Price examples
@@ -75,7 +75,7 @@ collections:
             name: welcome
             widget: object
             fields:
-              - { label: Title, name: title, widget: text }
+              - { label: Title, name: title, widget: string }
               - { label: Content, name: content, widget: markdown }
               - { label: Image, name: image, widget: image }
       - name: "livesessions"
@@ -86,7 +86,7 @@ collections:
             name: welcome
             widget: object
             fields:
-              - { label: Title, name: title, widget: text }
+              - { label: Title, name: title, widget: string }
               - { label: Content, name: content, widget: markdown }
               - { label: Image, name: image, widget: image }
       - name: "streaming"
@@ -97,7 +97,7 @@ collections:
             name: welcome
             widget: object
             fields:
-              - { label: Title, name: title, widget: text }
+              - { label: Title, name: title, widget: string }
               - { label: Content, name: content, widget: markdown }
               - { label: Image, name: image, widget: image }
       - name: "video"
@@ -108,7 +108,7 @@ collections:
             name: welcome
             widget: object
             fields:
-              - { label: Title, name: title, widget: text }
+              - { label: Title, name: title, widget: string }
               - { label: Content, name: content, widget: markdown }
               - { label: Image, name: image, widget: image }
           - label: Price examples
@@ -127,7 +127,7 @@ collections:
             name: welcome
             widget: object
             fields:
-              - { label: Title, name: title, widget: text }
+              - { label: Title, name: title, widget: string }
               - { label: Content, name: content, widget: markdown }
               - { label: Image, name: image, widget: image }
       - name: "promotion"
@@ -138,7 +138,7 @@ collections:
             name: welcome
             widget: object
             fields:
-              - { label: Title, name: title, widget: text }
+              - { label: Title, name: title, widget: string }
               - { label: Content, name: content, widget: markdown }
               - { label: Image, name: image, widget: image }
       - name: "photography"
@@ -149,7 +149,7 @@ collections:
             name: welcome
             widget: object
             fields:
-              - { label: Title, name: title, widget: text }
+              - { label: Title, name: title, widget: string }
               - { label: Content, name: content, widget: markdown }
               - { label: Image, name: image, widget: image }
           - label: Price examples
@@ -168,7 +168,7 @@ collections:
             name: welcome
             widget: object
             fields:
-              - { label: Title, name: title, widget: text }
+              - { label: Title, name: title, widget: string }
               - { label: Content, name: content, widget: markdown }
               - { label: Image, name: image, widget: image }
       - name: "concertphotography"
@@ -179,7 +179,7 @@ collections:
             name: welcome
             widget: object
             fields:
-              - { label: Title, name: title, widget: text }
+              - { label: Title, name: title, widget: string }
               - { label: Content, name: content, widget: markdown }
               - { label: Image, name: image, widget: image }
       - name: "about"
@@ -201,7 +201,7 @@ collections:
             name: welcome
             widget: object
             fields:
-              - { label: Title, name: title, widget: text }
+              - { label: Title, name: title, widget: string }
               - { label: Content, name: content, widget: markdown }
       - name: "pricing"
         label: "About: Pricing"
@@ -211,7 +211,7 @@ collections:
             name: welcome
             widget: object
             fields:
-              - { label: Title, name: title, widget: text }
+              - { label: Title, name: title, widget: string }
               - { label: Content, name: content, widget: markdown }
           - label: Price examples
             name: priceExamples
