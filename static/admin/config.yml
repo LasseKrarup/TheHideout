@@ -79,7 +79,7 @@ collections:
               - { label: Content, name: content, widget: markdown }
               - { label: Image, name: image, widget: image }
       - name: "livesessions"
-        label: "Live Sessions (Studio Subpage)"
+        label: "Studio: Live Sessions"
         file: "content/pages/studio/livesessions.md"
         fields:
           - label: Welcome Section
