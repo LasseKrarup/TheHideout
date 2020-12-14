@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*::placeholder {
+  @apply font-heading lowercase text-gray-400;
+}

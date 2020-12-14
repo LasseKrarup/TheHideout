@@ -15,6 +15,9 @@ module.exports = {
       borderWidth: {
         "16": "16px",
         "32": "32px"
+      },
+      screens: {
+        "xs": "375px"
       }
     },
   },
