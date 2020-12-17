@@ -20,6 +20,17 @@ collections:
         label: "Front Page"
         file: "content/pages/index.md"
         fields:
+          - {
+              label: Background video,
+              name: bgvideo,
+              widget: file,
+              hint: "An .mp4 video file that MUST be with h.264 encoding to ensure browser compatibility",
+              pattern:
+                [
+                  '^[a-z-_\.]+\.mp4$',
+                  "Must be an .mp4 file with no spaces in the name",
+                ],
+            }
           - label: Welcome Section
             name: welcome
             widget: object

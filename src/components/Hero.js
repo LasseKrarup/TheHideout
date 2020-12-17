@@ -2,16 +2,23 @@ import React, {forwardRef} from 'react';
 import PropTypes from 'prop-types';
 import { useSpring, animated } from "react-spring"
 
-import { Link } from "gatsby"
+import { graphql, Link, useStaticQuery } from "gatsby"
 import { ChevronDown } from "../icons/icons";
 
 import Nav from "./Nav";
 import MediaBackground from './MediaBackground';
 
-import bgvideo from "../images/bgvideo.mp4"
-
 
 const Hero = forwardRef((props, ref) => {
+    const {markdownRemark: {frontmatter: {bgvideo}}} = useStaticQuery(graphql`
+        query {
+            markdownRemark(fields: {slug: {eq: "/"}}) {
+                frontmatter {
+                    bgvideo
+                }
+            }
+        }
+    `)
     const { y } = useSpring({
         from: {y: 0},
         to: {y:1},
