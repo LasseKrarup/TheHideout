@@ -13,9 +13,8 @@ import Hero from "../components/Hero"
 import Footer from "../components/Footer"
 import Slideover from "../components/util/Slideover"
 
-const IndexLayout = ({ children }) => {
+const IndexLayout = ({ children, bgvideo }) => {
   const {ref: heroNavRef, inView: navInView } = useInView()
-
 
   return (
     <div className="flex flex-col min-h-screen bg-black text-white">

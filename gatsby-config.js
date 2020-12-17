@@ -48,7 +48,12 @@ module.exports = {
       options: {
         plugins: [
           // Fixes relative paths in NetlifyCMS created image paths
-          `gatsby-remark-relative-images`,
+          {
+            resolve: `gatsby-remark-relative-images`,
+            options: {
+              exclude: ['bgvideo']
+            }
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {

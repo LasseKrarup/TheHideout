@@ -1,4 +1,5 @@
 ---
+bgvideo: /img/bgvideo.mp4
 welcome:
   title: Studio in the heart of Aalborg, DK
   content: >-
