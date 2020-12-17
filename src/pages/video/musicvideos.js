@@ -26,7 +26,7 @@ const MusicvideosPage = ({data}) => {
             {welcome.content}
           </Markdown>
 
-          {welcome.image && <GradientImage src={welcome.image.childImageSharp.fluid} alt="Music Videos" style={{height: "600px"}}/>}
+          {welcome.image && <GradientImage src={welcome.image.childImageSharp.fluid} alt="Music Videos" />}
       </Section>
     </PageLayout>
   )

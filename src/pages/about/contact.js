@@ -31,7 +31,7 @@ const ContactPage = ({data}) => {
 
       {welcome.image && 
         <Section>
-          <GradientImage src={welcome.image.childImageSharp.fluid} alt="Contact HideOut" style={{height: "600px"}}/>
+          <GradientImage src={welcome.image.childImageSharp.fluid} alt="Contact HideOut" />
         </Section>
       }
       

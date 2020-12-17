@@ -57,7 +57,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 1536,
+              maxWidth: 2048,
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
@@ -71,7 +71,12 @@ module.exports = {
 
     // Sharp image plugin
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaultQuality: 90,
+      }
+    },
 
     // PWA manifest and Favicon stuff
     {

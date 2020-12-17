@@ -28,7 +28,7 @@ const PricingPage = ({data}) => {
           </Markdown>
 
           {welcome.image && 
-            <GradientImage src={welcome.image.childImageSharp.fluid} alt="Pricing" style={{height: "600px"}}/>
+            <GradientImage src={welcome.image.childImageSharp.fluid} alt="Pricing" />
           }
       </Section>
 

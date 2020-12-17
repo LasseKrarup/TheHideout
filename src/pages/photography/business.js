@@ -26,7 +26,7 @@ const BusinessPage = ({data}) => {
             {welcome.content}
           </Markdown>
 
-          {welcome.image && <GradientImage src={welcome.image.childImageSharp.fluid} alt="Business Photography" style={{height: "600px"}}/>}
+          {welcome.image && <GradientImage src={welcome.image.childImageSharp.fluid} alt="Business Photography" />}
       </Section>
     </PageLayout>
   )

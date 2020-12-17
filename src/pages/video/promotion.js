@@ -26,7 +26,7 @@ const PromotionPage = ({data}) => {
             {welcome.content}
           </Markdown>
 
-          {welcome.image && <GradientImage src={welcome.image.childImageSharp.fluid} alt="Promotion Videos" style={{height: "600px"}}/>}
+          {welcome.image && <GradientImage src={welcome.image.childImageSharp.fluid} alt="Promotion Videos" />}
       </Section>
     </PageLayout>
   )

@@ -26,7 +26,7 @@ const RecordingPage = ({data}) => {
             {welcome.content}
           </Markdown>
 
-          {welcome.image && <GradientImage src={welcome.image.childImageSharp.fluid} alt="Studio" style={{height: "600px"}}/>}
+          {welcome.image && <GradientImage src={welcome.image.childImageSharp.fluid} alt="Studio" />}
       </Section>
     </PageLayout>
   )

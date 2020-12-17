@@ -29,8 +29,9 @@ export default GradientImage;
 export const query = graphql`
     fragment ImageFragment on File {
         childImageSharp {
-            fluid {
+            fluid (quality: 100, maxWidth: 1536) {
                 ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluidLimitPresentationSize
             }
         }
     }

@@ -26,7 +26,7 @@ const ConcertphotographyPage = ({data}) => {
             {welcome.content}
           </Markdown>
 
-          {welcome.image && <GradientImage src={welcome.image.childImageSharp.fluid} alt="Concert Photography" style={{height: "600px"}}/>}
+          {welcome.image && <GradientImage src={welcome.image.childImageSharp.fluid} alt="Concert Photography" />}
       </Section>
     </PageLayout>
   )

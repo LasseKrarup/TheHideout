@@ -28,7 +28,7 @@ const PhotographyPage = ({data}) => {
             {welcome.content}
           </Markdown>
 
-          <GradientImage src={welcome.image.childImageSharp.fluid} alt="Photography" style={{height: "600px"}}/>
+          <GradientImage src={welcome.image.childImageSharp.fluid} alt="Photography" />
       </Section>
 
 
