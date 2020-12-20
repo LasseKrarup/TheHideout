@@ -13,7 +13,7 @@ priceExamples:
     content: |-
       5 days in the Hideout studio.
 
-      8-10 hours
+      10 hours
 
       All recording sessions are run by fully qualified engineer
     price: 15.000 DKK (VAT exempt, so no VAT will be added to the total cost.)
@@ -21,8 +21,14 @@ priceExamples:
     content: |-
       1 day in the HIdeout studio.
 
-      8-10 hours 
+      10 hours 
 
       All recording sessions are run by fully qualified engineer
     price: 3.500 DKK (VAT exempt, so no VAT will be added to the total cost.)
+  - title: "Hour "
+    content: |-
+      1 hour studio time
+
+      All recording sessions are run by fully qualified engineer
+    price: 450 DKK (VAT exempt, so no VAT will be added to the total cost.)
 ---
