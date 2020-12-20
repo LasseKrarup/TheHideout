@@ -10,15 +10,9 @@ welcome:
   image: /img/69351181_941616109516750_6045543906551005184_o.jpg
 priceExamples:
   - title: 5 days in the studio
-    content: |-
-      5 days in the HIdeout studio.
-
-
-
-      VAT exempt, so no VAT will be added to the total cost.
-    price: 15.000 DKK
+    content: 5 days in the HIdeout studio.
+    price: 15.000 DKK (VAT exempt, so no VAT will be added to the total cost.)
   - title: Solo gig, 2 days
-    content: Light from a service hatch at the rear of the Villa bespeak a turning
-      in, a denial of the bright void beyond the hull.
-    price: 8.000 DKK
+    content: 1 day in the HIdeout studio.
+    price: 3.500 DKK (VAT exempt, so no VAT will be added to the total cost.)
 ---
