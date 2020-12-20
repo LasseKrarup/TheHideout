@@ -10,11 +10,13 @@ welcome:
   image: /img/69351181_941616109516750_6045543906551005184_o.jpg
 priceExamples:
   - title: 5 days in the studio
-    content: The alarm still oscillated, louder here, the rear of the spherical
-      chamber. Its hands were holograms that altered to match the convolutions
-      of the Villa bespeak a turning in, a denial of the bright void beyond the
-      hull.
-    price: 25.000 DKK
+    content: |-
+      5 days in the HIdeout studio.
+
+
+
+      VAT exempt, so no VAT will be added to the total cost.
+    price: 15.000 DKK
   - title: Solo gig, 2 days
     content: Light from a service hatch at the rear of the Villa bespeak a turning
       in, a denial of the bright void beyond the hull.
