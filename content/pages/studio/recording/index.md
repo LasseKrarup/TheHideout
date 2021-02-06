@@ -1,10 +1,20 @@
 ---
 welcome:
-  title: Immortalize your music
+  title: Recording - "Immortalize your music"
   content: >-
-    Everyday carry disrupt skateboard, tousled vexillologist meggings ethical. Jean shorts gochujang af small batch microdosing echo park ugh etsy. Intelligentsia beard four dollar toast tote bag unicorn celiac salvia palo santo jianbing meggings. Chia slow-carb tilde try-hard kogi. Hashtag 3 wolf moon tofu post-ironic retro yr.
+    The heart of the studio is our control room. Dominated by old-school
+    analogue equipment combined with modern hardware and software. 
 
 
-    Beard ethical literally XOXO stumptown hammock. Everyday carry occupy pour-over, actually jianbing fingerstache kitsch austin vexillologist. Succulents tote bag banjo, health goth dreamcatcher fingerstache small batch YOLO umami. Slow-carb adaptogen cronut sriracha wolf cardigan meggings lyft hot chicken shoreditch.
-  image:
+    The main recording room which measures 150 square meters have all your heart might desire including old Vox and Fender amplifiers as well as our 1896 Steinway & Sons B211 grand piano.
+
+
+    The secondary recording room is ideal for isolating acoustic instruments or vocals during full band recording sessions. 
+
+
+    All gear in the studio is at your free disposal.
+
+
+    We also offer both mixing and mastering for your projects whether or not your recording has been done in-house.
+  image: /img/leo-wieling-bG8U3kaZltE-unsplash.jpg
 ---
