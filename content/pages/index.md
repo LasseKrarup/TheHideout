@@ -3,7 +3,7 @@ bgvideo: /img/bgvideo.mp4
 welcome:
   title: Studio in the heart of Aalborg, DK
   content: >-
-    Welcome!
+    **Welcome!**
 
 
     Recording studio in the heart of Aalborg. Professional and cozy setting. We always have fresh coffee brewing.
