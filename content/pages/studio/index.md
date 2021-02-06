@@ -16,6 +16,11 @@ welcome:
 
 
     All gear in the studio is at your free disposal.
+
+
+
+
+    We also offer both mixing and mastering for your projects whether or not your recording has been done in-house.
   image: /img/69351181_941616109516750_6045543906551005184_o.jpg
 priceExamples:
   - title: 5 days in the studio
