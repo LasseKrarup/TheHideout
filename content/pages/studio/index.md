@@ -21,26 +21,10 @@ welcome:
     We also offer both mixing and mastering for your projects whether or not your recording has been done in-house.
 
 
-
-
     Live sesssion: We offer professional recordings of your live sessions at the Hideout Studio. If you want a powerful PR-product for showcasing your musicality this is definitely the right choice for you. 
 
 
     Recordings of live session can be done either with or without an audience in the live room depending on your artistic preferences.
-
-
-
-
-    Live steam: Wanna go live? 
-
-
-    We offer high quality live streaming of your session through various media platforms. All sound is processed through the control room for an excellent concert experience during your live stream.
-
-
-    The camera setup consists of both still and moving cameras for an authentic cinematic experience. 
-
-
-    Recordings can be done either at The Hideout Studio or on location.
   image: /img/69351181_941616109516750_6045543906551005184_o.jpg
 priceExamples:
   - title: 5 days in the studio
