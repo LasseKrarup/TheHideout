@@ -22,10 +22,18 @@ welcome:
   image: /img/jeffery-erhunse-WJwRr3pW5FA-unsplash.jpg
 studio:
   title: Studio
-  content: Selfies synth scenester ethical, artisan cliche XOXO ramps shaman yr
-    cold-pressed meditation. 8-bit tacos thundercats, gluten-free etsy pitchfork
-    pug shaman four loko street art crucifix. Cornhole ethical asymmetrical
-    hammock kickstarter.
+  content: >-
+    The heart of the studio is our control room. Dominated by old-school
+    analogue equipment combined with modern hardware and software. 
+
+
+    The main recording room which measures 150 square meters have all your heart might desire including old Vox and Fender amplifiers as well as our 1896 Steinway & Sons B211 grand piano.
+
+
+    The secondary recording room is ideal for isolating acoustic instruments or vocals during full band recording sessions. 
+
+
+    All gear in the studio is at your free disposal.
   image: /img/leo-wieling-bG8U3kaZltE-unsplash.jpg
 video:
   title: Video
