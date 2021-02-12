@@ -26,7 +26,7 @@ studio:
 video:
   title: Video
   content: |-
-    \    A video connects an artist and a listener.
+    A video connects an artist and a listener.
 
     We make professional videos on location and in the studio.
   image: /img/pexels-roman-koval-4040362.jpg
