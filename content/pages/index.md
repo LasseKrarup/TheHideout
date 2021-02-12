@@ -25,14 +25,10 @@ studio:
   image: /img/leo-wieling-bG8U3kaZltE-unsplash.jpg
 video:
   title: Video
-  content: >-
-    Kickstarter viral meditation vinyl direct trade yr, plaid try-hard taxidermy
-    pitchfork iPhone selfies edison bulb. La croix street art tacos gastropub
-    brunch. Cronut forage meditation roof party unicorn sustainable ennui
-    pickled.
+  content: |-
+    \    A video connects an artist and a listener.
 
-
-    YOLO microdosing enamel pin meh cornhole locavore ugh. Craft beer tousled glossier blue bottle. Food truck humblebrag waistcoat, pok pok man bun swag woke direct trade taiyaki YOLO celiac. Truffaut affogato hell of man bun.
+    We make professional videos on location and in the studio.
   image: /img/pexels-roman-koval-4040362.jpg
 photo:
   title: Photo
