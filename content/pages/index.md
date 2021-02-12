@@ -32,9 +32,11 @@ video:
   image: /img/pexels-roman-koval-4040362.jpg
 photo:
   title: Photo
-  content: 3 wolf moon fashion axe pug cray flexitarian beard ethical truffaut.
-    Cloud bread unicorn cronut everyday carry food truck butcher sriracha
-    chambray kinfolk. Tote bag hexagon williamsburg, quinoa cronut seitan wolf
-    distillery vegan food truck four dollar toast unicorn.
+  content: |-
+    ***Press Photography, Portrait Photography, Coverart, So Me.***
+
+
+
+    The possibilities and uses are endless with a photography.
   image: /img/jason-wong-uBn9T18v4iU-unsplash.jpg
 ---
