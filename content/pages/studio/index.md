@@ -43,4 +43,32 @@ priceExamples:
 
       All recording sessions are run by fully qualified engineer
     price: 450 DKK (VAT incl. so no VAT will be added to the total cost.)
+  - title: Mixing
+    price: 1500 DKK (VAT incl. so no VAT will be added to the total cost.)
+    content: |-
+      Mixing pr song 1500 DKK
+
+      You want more than three song? Contact us for a price. 
+
+
+
+       *2 revisions included in the price.*
+
+
+
+      ***Discount for projects recorded in-house.***
+  - title: Mastering
+    content: |-
+      Mastering 
+
+      Mastering pr song 450 kr.
+
+      2 revisions included in the price
+
+
+
+
+
+      ***Discount for projects recorded in-house.***
+    price: 450  DKK (VAT incl. so no VAT will be added to the total cost.)
 ---
