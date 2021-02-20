@@ -59,8 +59,6 @@ priceExamples:
       ***Discount for projects recorded in-house.***
   - title: Mastering
     content: |-
-      Mastering 
-
       Mastering pr song 450 kr.
 
       2 revisions included in the price
