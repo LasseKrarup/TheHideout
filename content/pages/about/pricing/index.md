@@ -16,14 +16,15 @@ priceExamples:
   - title: Livesession in the studio ( Video, audio and visual postwork )
     content: |-
       9 hours recording / video session in the studio .\
-      - Max length per track is 5 min.\
-      - 2 mix revisions. ( hereafter 500 dkk pr revision)
+
+      * Max length per track is 5 min.\
+      * 2 mix revisions. ( hereafter 500 dkk pr revision)
 
       \- Mix and Master ( Audio post production )
 
       First video 5.500 DKK
 
-      Hereafter 1.500 DKK Pr videos.
+      Hereafter 1.500 DKK Pr video.
     price: Three videos, including postwork and two revisons 8.500 DKK (VAT incl. so
       no VAT will be added to the total cost.)
   - title: "Mixing "
