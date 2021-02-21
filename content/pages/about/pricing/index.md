@@ -17,7 +17,11 @@ priceExamples:
     content: |-
       5 days in the studio.
 
+
+
       Mixing and mastering of 10 song ( Including two revisions )
+
+
 
       Photoshoot in the studio. ( separate day)
     price: 24.000 DKK  (VAT incl. so no VAT will be added to the total cost)
