@@ -1,8 +1,14 @@
 ---
 welcome:
   title: Pricing Examples
-  content: Here you can find informations regarding pricing in the studio. Feel
-    free to contact the studio by our "contact page".
+  content: >-
+    Here you can find informations regarding pricing in the studio. Feel free to
+    contact the studio by our "contact page".
+
+
+
+
+    ***Indicative rates***
   image: null
 priceExamples:
   - title: 5 days in the studio
