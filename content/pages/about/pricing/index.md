@@ -67,4 +67,7 @@ priceExamples:
       ***Recordings done in the studio will be mastered with a discount.***
     price: 3 tracks mastered 1.200 DKK (VAT incl. so no VAT will be added to the
       total cost.)
+  - title: Photoshoot
+    content: Three hours photoshoot in the studio including 5-10 digital pictures.
+    price: 1.500 DKK (VAT incl. so no VAT will be added to the total cost.)
 ---
