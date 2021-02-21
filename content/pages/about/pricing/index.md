@@ -55,4 +55,12 @@ priceExamples:
       ***Recordings done in the studio will be mastered with a discount.***
     price: 3 tracks mastered 1.200 DKK (VAT incl. so no VAT will be added to the
       total cost.)
+  - title: Album ( Example )
+    content: |-
+      5 days in the studio.
+
+      Mixing and mastering of 10 song ( Including two revisions )
+
+      Photoshoot in the studio. ( separate day)
+    price: 24.000 DKK  (VAT incl. so no VAT will be added to the total cost)
 ---
