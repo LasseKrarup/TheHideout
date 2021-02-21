@@ -1,37 +1,8 @@
 ---
 welcome:
   title: Pricing Examples
-  content: >-
-    
-
-    #### HOUR
-
-
-    1 hour studio time All recording sessions are run by fully qualified engineer
-
-
-    Price example: **450 DKK (VAT incl. so no VAT will be added to the total cost.)**
-
-
-    #### MIXING
-
-
-    Mixing pr song 1500 DKK You want more than three song? Contact us for a price.  \*2 revisions included in the price.\* \*\*\*Discount for projects recorded in-house.\*\*\*
-
-
-    Price example: **1500 DKK (VAT incl. so no VAT will be added to the total cost.)**
-
-
-    #### MASTERING
-
-
-    Mastering pr song 450 kr. 2 revisions included in the price \*\*\*Discount for projects recorded in-house.\*\*\*
-
-
-    Price example: **450 DKK (VAT incl. so no VAT will be added to the total cost.)**
-
-
-    <!--EndFragment-->
+  content: Here you can find informations regarding pricing in the studio. Feel
+    free to contact the studio by our "contact page".
   image: null
 priceExamples:
   - title: 5 days in the studio
@@ -59,13 +30,28 @@ priceExamples:
     content: |-
       Mixing price pr track 1.500 ( max 35 stems )
 
+
+
       Volume discount will be offered please contact us for an offer.
 
-      Recordings done in the studio will be mixed with a disount. 
+      Recordings done in the studio will be mixed with a discount. 
 
-
-
-      Two revisions included.
+      *Two revisions included.*
     price: 5 tracks mixed  6.000 DKK (VAT incl. so no VAT will be added to the total
       cost.)
+  - title: Mastering
+    content: |-
+      Mastering pr song 450 kr. 
+
+
+
+
+
+      Volume discount will be offered please contact us for an offer.
+
+      *2 revisions included in the price* 
+
+      ***Recordings done in the studio will be mastered with a discount.***
+    price: 3 tracks mastered 1.200 DKK (VAT incl. so no VAT will be added to the
+      total cost.)
 ---
