@@ -27,7 +27,7 @@ priceExamples:
     price: 24.000 DKK  (VAT incl. so no VAT will be added to the total cost)
   - title: Livesession in the studio ( Video, audio and visual postwork )
     content: |-
-      9 hours recording / video session in the studio .\
+      8 hours recording / video session in the studio .\
 
       * Max length per track is 5 min.\
       * 2 mix revisions. ( hereafter 500 dkk pr revision)
