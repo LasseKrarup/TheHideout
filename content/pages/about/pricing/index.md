@@ -47,9 +47,7 @@ priceExamples:
       no VAT will be added to the total cost.)
   - title: "Mixing "
     content: |-
-      Mixing price pr track 1.500 ( max 35 stems )
-
-
+      Mixing price pr track 1.700 ( max 35 stems )
 
       Volume discount will be offered please contact us for an offer.
 
