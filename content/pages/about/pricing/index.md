@@ -52,4 +52,12 @@ priceExamples:
   - title: Photoshoot
     content: Three hours photoshoot in the studio including 5-10 digital pictures.
     price: 2.000 DKK (VAT incl. so no VAT will be added to the total cost.)
+  - content: >-
+      Piano tuning before recording with the Steinway B-211 (Local piano tuner
+      "Klaverstemmeren")
+
+
+      ( The grand piano is always available. )
+    title: Use of Steinway B-211
+    price: 800 DKK (VAT incl. so no VAT will be added to the total cost.)
 ---
