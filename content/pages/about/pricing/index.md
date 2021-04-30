@@ -26,7 +26,7 @@ priceExamples:
 
       First video 5.500 DKK
 
-      Hereafter 2.000 DKK Pr video.
+      Hereafter 2.500 DKK Pr video.
     price: Three videos, including postwork and two revisons 10.500 DKK (VAT incl.
       so no VAT will be added to the total cost.)
   - title: "Mixing "
