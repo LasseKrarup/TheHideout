@@ -39,20 +39,21 @@ priceExamples:
       Recordings done in the studio will be mixed with a discount. 
 
       *Two revisions included.*
-    price: 5 tracks mixed  8.500 DKK (VAT incl. so no VAT will be added to the total
-      cost.)
+    price: 1 track mixed 1.700 DKK (230€/275 $)  (VAT incl. so no VAT will be added
+      to the total cost.)
   - title: Mastering
     content: >-
-      Mastering pr song 450 kr. Volume discount will be offered please contact
+      Mastering pr song 550 kr. Volume discount will be offered please contact
       us for an offer. 
 
 
       2 revisions included in the price
-    price: 3 tracks mastered 1.350 DKK (VAT incl. so no VAT will be added to the
-      total cost.)
+    price: 1 track mastered 550 DKK (75€/89$)  (VAT incl. so no VAT will be added to
+      the total cost.)
   - title: Photoshoot
     content: Three hours photoshoot in the studio including 5-10 digital pictures.
-    price: 2.000 DKK (VAT incl. so no VAT will be added to the total cost.)
+    price: 2.000 DKK (270 €/325$) (VAT incl. so no VAT will be added to the total
+      cost.)
   - content: >-
       Piano tuning before recording with the Steinway B-211 (Local piano tuner
       "Klaverstemmeren")
@@ -60,5 +61,5 @@ priceExamples:
 
       ( The grand piano is always available. )
     title: Use of Steinway B-211
-    price: 800 DKK (VAT incl. so no VAT will be added to the total cost.)
+    price: 800 DKK (110€/130$) (VAT incl. so no VAT will be added to the total cost.)
 ---
