@@ -1,6 +1,6 @@
 ---
 welcome:
   title: Get in touch
-  content: Looking Forward to Hearing From You
+  content: Looking forward to hearing from you
   image: null
 ---
