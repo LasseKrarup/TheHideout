@@ -14,8 +14,8 @@ priceExamples:
   - content: 1 day in the Hideout studio. 10 hours All recording sessions are run by
       fully qualified engineer
     title: 1 day in the Hideout studio
-    price: 3.500 DKK (470 €/ 566 $) (VAT incl. so no VAT will be added to the total
-      cost.)
+    price: " 3.500 DKK (470 €/ 566 $) (VAT incl. so no VAT will be added to the
+      total cost.)"
   - title: Livesession in the studio ( Video, audio and visual postwork )
     content: |-
       8 hours recording / video session in the studio .\
