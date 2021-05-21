@@ -12,6 +12,7 @@ const SlideoverNavigation = ({closeSlideover}) => {
                     <SlideoverNavigationLink key={uuid()} link={item} closeSlideover={closeSlideover} />
                 ))
             }
+            <SlideoverNavigationLink link={{slug: "/about/pricing", title: "Pricing"}} closeSlideover={closeSlideover}></SlideoverNavigationLink>
         </ul>
     );
 }
