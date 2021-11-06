@@ -32,23 +32,23 @@ priceExamples:
       €/1.700$) (VAT incl. so no VAT will be added to the total cost.)
   - title: "Mixing "
     content: |-
-      Mixing price pr track 1.700 ( max 35 stems )
+      Mixing price pr track 1.900 ( max 35 stems )
 
       Volume discount will be offered please contact us for an offer.
 
       Recordings done in the studio will be mixed with a discount. 
 
       *Two revisions included.*
-    price: 1 track mixed 1.700 DKK (230€/275 $)  (VAT incl. so no VAT will be added
+    price: 1 track mixed 1.900 DKK (230€/275 $)  (VAT incl. so no VAT will be added
       to the total cost.)
   - title: Mastering
     content: >-
-      Mastering pr song 550 kr. Volume discount will be offered please contact
+      Mastering pr song 450 kr. Volume discount will be offered please contact
       us for an offer. 
 
 
       2 revisions included in the price
-    price: 1 track mastered 550 DKK (75€/89$)  (VAT incl. so no VAT will be added to
+    price: 1 track mastered 450 DKK (75€/89$)  (VAT incl. so no VAT will be added to
       the total cost.)
   - title: Photoshoot
     content: Three hours photoshoot in the studio including 5-10 digital pictures.
