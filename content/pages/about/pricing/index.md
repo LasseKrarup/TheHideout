@@ -25,21 +25,27 @@ priceExamples:
 
       \- Mix and Master ( Audio post production )
 
-      First video 5.500 DKK
+      First video 6.500 DKK
 
-      Hereafter 2.500 DKK Pr video.
+      Hereafter 3.000 DKK Pr video.
     price: Three videos, including postwork and two revisons 10.500 DKK (1.400
       €/1.700$) (VAT incl. so no VAT will be added to the total cost.)
   - title: "Mixing "
     content: |-
-      Mixing price pr track 1.900 ( max 35 stems )
+      Mixing prices pr song (VAT incl.)
+
+
+
+      * 1-35 stems  2.000   dkk.
+      * 36-60 stems 2.500 dkk.
+      * 61-96 stems 2.800  dkk.
 
       Volume discount will be offered please contact us for an offer.
 
       Recordings done in the studio will be mixed with a discount. 
 
       *Two revisions included.*
-    price: 1 track mixed 1.900 DKK (230€/275 $)  (VAT incl. so no VAT will be added
+    price: 1 song mixed 1.900 DKK (230€/275 $)  (VAT incl. so no VAT will be added
       to the total cost.)
   - title: Mastering
     content: >-
