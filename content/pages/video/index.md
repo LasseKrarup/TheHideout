@@ -7,13 +7,11 @@ welcome:
   image: /img/pexels-roman-koval-4040362.jpg
 priceExamples:
   - title: Music Video
-    content: The alarm still oscillated, louder here, the rear of the spherical
-      chamber. Its hands were holograms that altered to match the convolutions
-      of the Villa bespeak a turning in, a denial of the bright void beyond the
-      hull.
-    price: 10.000 DKK
-  - title: Promotional Video
-    content: Light from a service hatch at the rear of the Villa bespeak a turning
-      in, a denial of the bright void beyond the hull.
-    price: 5.000 DKK
+    content: >-
+      We make Music Videos, Electronic Press Kits, Behind the Scenes and Event
+      Filming.
+
+
+      If you’re looking for music video production companies in Aalborg give us a call, email or fill out our contact form and let us make your music video.
+    price: 5.000-30.000
 ---
