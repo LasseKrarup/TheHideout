@@ -2,9 +2,22 @@
 welcome:
   title: Who are we?
   content: >-
-    YOLO microdosing enamel pin meh cornhole locavore ugh. Craft beer tousled glossier blue bottle. Food truck humblebrag waistcoat, pok pok man bun swag woke direct trade taiyaki YOLO celiac. Truffaut affogato hell of man bun.
+    
+
+    Music Studio in the heart of Aalborg Denmark. 
 
 
-    90's gochujang kitsch sartorial roof party. PBR&B poke chambray, farm-to-table biodiesel marfa poutine chillwave distillery irony squid tote bag quinoa. Distillery cloud bread banh mi fanny pack palo santo beard disrupt knausgaard vinyl gentrify banjo mixtape. Polaroid tousled waistcoat pok pok master cleanse.
+
+
+    The heart of the studio is our control room. Dominated by old-school analogue equipment combined with modern hardware and software. 
+
+
+    The main recording room have all your heart might desire including old Vox and Fender amplifiers as well as our 1896 Steinway & Sons B211 grand piano.
+
+
+    The secondary recording room is ideal for isolating acoustic instruments or vocals during full band recording sessions.
+
+
+    All gear in the studio is at your free disposal.
   image: /img/pexels-roman-koval-4040362.jpg
 ---
