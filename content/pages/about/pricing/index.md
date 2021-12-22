@@ -45,7 +45,7 @@ priceExamples:
       Recordings done in the studio will be mixed with a discount. 
 
       *Two revisions included.*
-    price: 1 song mixed 1.900 DKK (230€/275 $)  (VAT incl. so no VAT will be added
+    price: 1 song mixed 2.000 DKK (230€/275 $)  (VAT incl. so no VAT will be added
       to the total cost.)
   - title: Mastering
     content: >-
