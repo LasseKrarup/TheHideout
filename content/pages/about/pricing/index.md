@@ -32,20 +32,14 @@ priceExamples:
       €/1.700$) (VAT incl. so no VAT will be added to the total cost.)
   - title: "Mixing "
     content: |-
-      Mixing prices pr song (VAT incl.)
-
-
-
-      * 1-35 stems  2.000   dkk.
-      * 36-60 stems 2.500 dkk.
-      * 61-96 stems 2.800  dkk.
+      Mixing prices pr song (VAT incl.) 2.500
 
       Volume discount will be offered please contact us for an offer.
 
       Recordings done in the studio will be mixed with a discount. 
 
       *Two revisions included.*
-    price: 1 song mixed 2.000 DKK (230€/275 $)  (VAT incl. so no VAT will be added
+    price: 1 song mixed 2.500 DKK (335€/380 $)  (VAT incl. so no VAT will be added
       to the total cost.)
   - title: Mastering
     content: >-
