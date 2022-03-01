@@ -7,7 +7,7 @@ welcome:
 
 
     **"Recording studio in the heart of Aalborg. Professional and cozy setting. We always have fresh coffee brewing."**
-  image: /img/jeffery-erhunse-WJwRr3pW5FA-unsplash.jpg
+  image: /img/the-hideout-foto-2-skærm.jpeg
 studio:
   title: Studio
   content: >-
@@ -22,14 +22,14 @@ studio:
 
 
     All gear in the studio is at your free disposal.
-  image: /img/leo-wieling-bG8U3kaZltE-unsplash.jpg
+  image: /img/the-hideout-foto-1-mixer.jpeg
 video:
   title: Video
   content: |-
     A video connects an artist and a listener.
 
     We make professional videos on location and in the studio.
-  image: /img/pexels-roman-koval-4040362.jpg
+  image: /img/the-hideout-foto-4-flygel.jpeg
 photo:
   title: Photo
   content: |-
