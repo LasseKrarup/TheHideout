@@ -16,5 +16,5 @@ welcome:
 
 
     We also offer both mixing and mastering for your projects whether or not your recording has been done in-house.
-  image: /img/the-hideout-foto-1-mixer.jpeg
+  image: /img/foto-the-hideout-3-studiet.jpeg
 ---
