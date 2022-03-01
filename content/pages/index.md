@@ -29,7 +29,7 @@ video:
     A video connects an artist and a listener.
 
     We make professional videos on location and in the studio.
-  image: /img/foto-the-hideout-3-studiet.jpeg
+  image: /img/the-hideout-foto-5-johannes.jpeg
 photo:
   title: Photo
   content: |-
@@ -38,5 +38,5 @@ photo:
 
 
     The possibilities and uses are endless with a photography.
-  image: /img/jason-wong-uBn9T18v4iU-unsplash.jpg
+  image: /img/the-hideout-foto-6-.jpeg
 ---
