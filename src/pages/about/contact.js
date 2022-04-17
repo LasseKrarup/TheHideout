@@ -32,7 +32,7 @@ const ContactPage = ({data}) => {
 
       {welcome.image && 
         <Section>
-          <GradientImage src={welcome.image.childImageSharp.fluid} alt="Contact HideOut" />
+          <GradientImage src={welcome.image.childImageSharp.fluid} alt="Contact Hideout" />
         </Section>
       }
       

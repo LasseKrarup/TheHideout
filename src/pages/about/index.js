@@ -27,7 +27,7 @@ const AboutPage = ({data}) => {
             {welcome.content}
           </Markdown>
 
-          <GradientImage src={welcome.image.childImageSharp.fluid} alt="The HideOut Studio" />
+          <GradientImage src={welcome.image.childImageSharp.fluid} alt="The Hideout Studio" />
       </Section>
     </PageLayout>
   )

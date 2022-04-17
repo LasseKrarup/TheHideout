@@ -9,7 +9,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: `The HideOut Studio`,
+    title: `The Hideout Studio`,
     description: `Recording/video/photography studio in the heart of Aalborg, DK`,
     author: `Lasse Krarup <me@lassekrarup.com>`,
   },
