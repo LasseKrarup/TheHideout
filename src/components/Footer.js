@@ -7,10 +7,16 @@ const Footer = () => {
             <Link to="/" className="text-white">Home</Link>
             <ul className="list-none">
                 <li>
-                    The HideOut Studio
+                    The Hideout Studio
                 </li>
                 <li>
-                    Aalborg [DK]
+                    contact@thehideout.dk
+                </li>
+                <li>
+                    +45 2672 5262
+                </li>
+                <li>
+                    Aalborg, 9000 [DK]
                 </li>
                 <li>
                     CVR: 35014640
