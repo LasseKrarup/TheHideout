@@ -11,14 +11,14 @@ import Subheading from "../../components/atoms/Subheading"
 import GradientImage from "../../components/util/GradientImage"
 
 
-const BusinessPage = ({data}) => {
+const PressphotosPage = ({data}) => {
   const {welcome} = data.markdownRemark.frontmatter
   
   return(
     <PageLayout>
       {/* eslint-disable-next-line */}
-      <SEO title="Business Photography" />
-      <SubPageHero title="Business Photography" />
+      <SEO title="Press Photos" />
+      <SubPageHero title="Press Photos" />
 
       <Subheading title={welcome.title} />
 
@@ -27,17 +27,17 @@ const BusinessPage = ({data}) => {
             {welcome.content}
           </Markdown>
 
-          {welcome.image && <GradientImage src={welcome.image.childImageSharp.fluid} alt="Business Photography" />}
+          {welcome.image && <GradientImage src={welcome.image.childImageSharp.fluid} alt="Concert Photography" />}
       </Section>
     </PageLayout>
   )
 }
 
-export default BusinessPage
+export default PressphotosPage
 
 export const query = graphql`
 query {
-  markdownRemark(fields: {slug: {eq: "/photography/business/"}}) {
+  markdownRemark(fields: {slug: {eq: "/photo/pressphotos/"}}) {
     frontmatter {
       welcome {
         title

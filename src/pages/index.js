@@ -78,7 +78,7 @@ const IndexPage = ({data}) => {
             {sections.photo.content}
         </Markdown>
         <Paragraph>
-          Read more on our <ButtonLink to="/photography">Photo page</ButtonLink>
+          Read more on our <ButtonLink to="/photo">Photo page</ButtonLink>
         </Paragraph>
       </IndexSection>
 

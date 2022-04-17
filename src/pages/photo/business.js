@@ -3,24 +3,22 @@ import { graphql } from "gatsby"
 
 import PageLayout from "../../layouts/PageLayout"
 import SEO from "../../components/Seo"
-import PageHero from "../../components/PageHero"
+import SubPageHero from "../../components/SubPageHero"
 import Markdown from "../../components/util/Markdown"
 import Section from "../../components/Section"
 
 import Subheading from "../../components/atoms/Subheading"
 import GradientImage from "../../components/util/GradientImage"
-import PriceExample from "../../components/util/PriceExample"
-import { uniqueId } from "lodash"
 
 
-const PhotographyPage = ({data}) => {
-  const {welcome, priceExamples} = data.markdownRemark.frontmatter
+const BusinessPage = ({data}) => {
+  const {welcome} = data.markdownRemark.frontmatter
   
   return(
     <PageLayout>
       {/* eslint-disable-next-line */}
-      <SEO title="Photography" />
-      <PageHero title="Photography" />
+      <SEO title="Business Photography" />
+      <SubPageHero title="Business Photography" />
 
       <Subheading title={welcome.title} />
 
@@ -29,27 +27,17 @@ const PhotographyPage = ({data}) => {
             {welcome.content}
           </Markdown>
 
-          <GradientImage src={welcome.image.childImageSharp.fluid} alt="Photography" />
-      </Section>
-
-
-      <Subheading title="Price examples" />
-      <Section>
-        {priceExamples.map((item) => 
-        <PriceExample key={uniqueId()} title={item.title} price={item.price}>
-          {item.content}
-        </PriceExample>
-        )}
+          {welcome.image && <GradientImage src={welcome.image.childImageSharp.fluid} alt="Business Photography" />}
       </Section>
     </PageLayout>
   )
 }
 
-export default PhotographyPage
+export default BusinessPage
 
 export const query = graphql`
 query {
-  markdownRemark(fields: {slug: {eq: "/photography/"}}) {
+  markdownRemark(fields: {slug: {eq: "/photo/business/"}}) {
     frontmatter {
       welcome {
         title
@@ -59,11 +47,6 @@ query {
             gatsbyImageData(layout: FIXED)
           }
         }
-      }
-      priceExamples{
-        title
-        content
-        price
       }
     }
   }

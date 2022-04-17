@@ -152,9 +152,9 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Content, name: content, widget: markdown }
               - { label: Image, name: image, widget: image }
-      - name: "photography"
-        label: "Photography Page"
-        file: "content/pages/photoghraphy/index.md"
+      - name: "photo"
+        label: "Photo Page"
+        file: "content/pages/photo/index.md"
         fields:
           - label: Welcome Section
             name: welcome
@@ -172,8 +172,8 @@ collections:
               - { label: Content, name: content, widget: markdown }
               - { label: Example price, name: price, widget: string }
       - name: "business"
-        label: "Photography: Business"
-        file: "content/pages/photography/business/index.md"
+        label: "Photo: Business"
+        file: "content/pages/photo/business/index.md"
         fields:
           - label: Welcome Section
             name: welcome
@@ -182,9 +182,9 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Content, name: content, widget: markdown }
               - { label: Image, name: image, widget: image }
-      - name: "concertphotography"
-        label: "Photography: Concert Photography"
-        file: "content/pages/photography/concertphotography/index.md"
+      - name: "pressphotos"
+        label: "Photo: Press Photos"
+        file: "content/pages/photo/pressphotos/index.md"
         fields:
           - label: Welcome Section
             name: welcome

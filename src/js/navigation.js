@@ -32,12 +32,12 @@ export const navigation = [
         ]
       },
       {
-        title: 'Photography',
-        slug: '/photography/',
+        title: 'Photo',
+        slug: '/photo/',
         sub: [
           {
-            title: 'Concert photography',
-            slug: 'concertphotography/'
+            title: 'Press Photos',
+            slug: 'pressphotos/'
           },
           {
             title: 'Business',

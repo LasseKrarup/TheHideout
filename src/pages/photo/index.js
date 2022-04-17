@@ -3,22 +3,24 @@ import { graphql } from "gatsby"
 
 import PageLayout from "../../layouts/PageLayout"
 import SEO from "../../components/Seo"
-import SubPageHero from "../../components/SubPageHero"
+import PageHero from "../../components/PageHero"
 import Markdown from "../../components/util/Markdown"
 import Section from "../../components/Section"
 
 import Subheading from "../../components/atoms/Subheading"
 import GradientImage from "../../components/util/GradientImage"
+import PriceExample from "../../components/util/PriceExample"
+import { uniqueId } from "lodash"
 
 
-const ConcertphotographyPage = ({data}) => {
-  const {welcome} = data.markdownRemark.frontmatter
+const PhotographyPage = ({data}) => {
+  const {welcome, priceExamples} = data.markdownRemark.frontmatter
   
   return(
     <PageLayout>
       {/* eslint-disable-next-line */}
-      <SEO title="Concert Photography" />
-      <SubPageHero title="Concert Photography" />
+      <SEO title="Photography" />
+      <PageHero title="Photography" />
 
       <Subheading title={welcome.title} />
 
@@ -27,17 +29,27 @@ const ConcertphotographyPage = ({data}) => {
             {welcome.content}
           </Markdown>
 
-          {welcome.image && <GradientImage src={welcome.image.childImageSharp.fluid} alt="Concert Photography" />}
+          <GradientImage src={welcome.image.childImageSharp.fluid} alt="Photography" />
+      </Section>
+
+
+      <Subheading title="Price examples" />
+      <Section>
+        {priceExamples.map((item) => 
+        <PriceExample key={uniqueId()} title={item.title} price={item.price}>
+          {item.content}
+        </PriceExample>
+        )}
       </Section>
     </PageLayout>
   )
 }
 
-export default ConcertphotographyPage
+export default PhotographyPage
 
 export const query = graphql`
 query {
-  markdownRemark(fields: {slug: {eq: "/photography/concertphotography/"}}) {
+  markdownRemark(fields: {slug: {eq: "/photo/"}}) {
     frontmatter {
       welcome {
         title
@@ -47,6 +59,11 @@ query {
             gatsbyImageData(layout: FIXED)
           }
         }
+      }
+      priceExamples{
+        title
+        content
+        price
       }
     }
   }
