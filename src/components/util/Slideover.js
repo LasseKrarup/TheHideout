@@ -63,8 +63,8 @@ const Slideover = (props) => {
     <section className="absolute inset-y-0 right-0 pl-10 max-w-full flex" aria-labelledby="slide-over-heading">
         {/* Slide over panel */}
       <animated.div className="relative w-screen max-w-md pointer-events-auto" style={{transform: slideT.to([0,1], [0,width !== undefined ? width : 448]).to(t => `translateX(${t}px)`)}}>
-        <div className="absolute top-0 left-0 -ml-8 pt-4 pr-4 flex sm:pr-8">
-          <animated.button {...buttonSwipeHandler} onClick={handleClick} className="rounded-md w-6 h-6 ring-2 ring-white text-gray-300 hover:text-white focus:outline-none" style={{opacity: buttonO.to(o=>o)}}>
+        <div className="absolute top-0 left-0 -ml-12 pt-4 pr-4 flex sm:pr-8">
+          <animated.button {...buttonSwipeHandler} onClick={handleClick} className="rounded-md w-10 h-10 ring-2 ring-white text-gray-300 hover:text-white focus:outline-none" style={{opacity: buttonO.to(o=>o)}}>
             {rotateTransition((style, isVisible) => {
                 return isVisible ? <AnimatedX style={style} className={"absolute inset-y-4"} /> : <AnimatedMenu style={style} className={"absolute inset-y-4"} />
             })}
@@ -73,7 +73,7 @@ const Slideover = (props) => {
         <div ref={ref} className="h-full flex flex-col py-6 bg-gray-800 shadow-xl overflow-y-scroll">
           <div className="px-4 sm:px-6">
             <h2 id="slide-over-heading" className="text-lg font-medium text-white text-center">
-              <Link to="/" onClick={onHomelinkClick} className="text-2xl font-heading tracking-wide lowercase">The <span className="text-yellow-300">HideOut</span> Studio</Link>
+              <Link to="/" onClick={onHomelinkClick} className="text-2xl font-heading tracking-wide lowercase">The <span className="text-yellow-300">Hideout</span> Studio</Link>
             </h2>
             <Link to="/" onClick={onHomelinkClick}>
               <div className="flex justify-center">
