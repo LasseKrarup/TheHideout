@@ -16,6 +16,7 @@ const PromotionPage = ({data}) => {
   
   return(
     <PageLayout>
+      {/* eslint-disable-next-line */}
       <SEO title="Promotion Videos" />
       <SubPageHero title="Promotion Videos" />
 
@@ -42,7 +43,9 @@ query {
         title
         content
         image {
-          ...ImageFragment
+          childImageSharp {
+            gatsbyImageData(layout: FIXED)
+          }
         }
       }
     }

@@ -17,6 +17,7 @@ const PricingPage = ({data}) => {
 
   return(
     <PageLayout isContact>
+      {/* eslint-disable-next-line */}
       <SEO title="Pricing" />
       <SubPageHero title="Pricing" />
 
@@ -54,7 +55,9 @@ query {
         title
         content
         image {
-          ...ImageFragment
+          childImageSharp {
+            gatsbyImageData(layout: FIXED)
+          }
         }
       }
       priceExamples{

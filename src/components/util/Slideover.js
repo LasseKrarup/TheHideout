@@ -1,6 +1,6 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { useSpring, animated, useTransition, useChain } from 'react-spring';
+import { useSpring, useSpringRef, animated, useTransition, useChain } from 'react-spring';
 import { useMeasure } from "../../hooks/useMeasure"
 import { useSwipeable } from "react-swipeable"
 
@@ -23,10 +23,10 @@ const Slideover = (props) => {
     })
   
     const buttonVisible = !props.navInView || isVisible
-    const springRef = useRef()
+    const springRef = useSpringRef()
     const {opacity: buttonO} = useSpring({from: {opacity: 0}, opacity: buttonVisible ? 1 : 0.3, ref: springRef})
 
-    const transitionRef = useRef()
+    const transitionRef = useSpringRef()
     const rotateTransition = useTransition(isVisible, {
         from: {transform: "rotate(-180deg)", opacity: 0},
         enter: {transform: "rotate(0deg)", opacity: 1},
@@ -75,7 +75,11 @@ const Slideover = (props) => {
             <h2 id="slide-over-heading" className="text-lg font-medium text-white text-center">
               <Link to="/" onClick={onHomelinkClick} className="text-2xl font-heading tracking-wide lowercase">The <span className="text-yellow-300">HideOut</span> Studio</Link>
             </h2>
-            <Link to="/" onClick={onHomelinkClick} className="mx-auto"><Logo className="w-1/2 mx-auto my-4" /></Link>
+            <Link to="/" onClick={onHomelinkClick}>
+              <div className="flex justify-center">
+                <Logo className="w-1/2 my-4" />
+              </div>
+            </Link>
           </div>
           <div {...swipeHandler} className="mt-6 relative flex-1 px-4 sm:px-6">
             {/* Content goes here */}

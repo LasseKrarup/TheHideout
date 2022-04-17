@@ -16,7 +16,7 @@
 **/
 
 // --- Slug generation for Markdown Remark ----
-const path = require(`path`)
+const path = require(`path-browserify`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.onCreateNode = ({ node, getNode, actions }) => {

@@ -16,6 +16,7 @@ const ConcertphotographyPage = ({data}) => {
   
   return(
     <PageLayout>
+      {/* eslint-disable-next-line */}
       <SEO title="Concert Photography" />
       <SubPageHero title="Concert Photography" />
 
@@ -42,7 +43,9 @@ query {
         title
         content
         image {
-          ...ImageFragment
+          childImageSharp {
+            gatsbyImageData(layout: FIXED)
+          }
         }
       }
     }

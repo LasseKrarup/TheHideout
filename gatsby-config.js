@@ -13,6 +13,9 @@ module.exports = {
     description: `Recording/video/photography studio in the heart of Aalborg, DK`,
     author: `Lasse Krarup <me@lassekrarup.com>`,
   },
+  flags: {
+    DEV_SSR: false,
+  },
   plugins: [
     // Metadata https://www.gatsbyjs.com/plugins/gatsby-plugin-react-helmet/
     `gatsby-plugin-react-helmet`,
@@ -41,7 +44,19 @@ module.exports = {
       },
     },
 
-    // Transformers
+    // IMAGE PLUGINS
+    `gatsby-plugin-image`,
+
+    // Sharp image plugin
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaultQuality: 90,
+      }
+    },
+    `gatsby-transformer-sharp`,
+
+    // TRANSFORMERS
     'gatsby-transformer-json',
     {
       resolve: `gatsby-transformer-remark`,
@@ -67,15 +82,6 @@ module.exports = {
           },
         ],
       },
-    },
-
-    // Sharp image plugin
-    `gatsby-transformer-sharp`,
-    {
-      resolve: `gatsby-plugin-sharp`,
-      options: {
-        defaultQuality: 90,
-      }
     },
 
     // PWA manifest and Favicon stuff

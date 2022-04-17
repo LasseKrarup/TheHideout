@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 const GradientImage = ({src, alt, className, ...rest}) => {
     let gatsbyImage = false
@@ -11,7 +10,7 @@ const GradientImage = ({src, alt, className, ...rest}) => {
     return (
         <div className={`relative overflow-hidden xl:h-160 ${className}`} {...rest}>
             {gatsbyImage ? 
-                <Img fluid={src} alt={alt} className="opacity-75 xl:absolute xl:inset-0 xl:m-auto" />
+                <GatsbyImage image={src} alt={alt} className="opacity-75 xl:absolute xl:inset-0 xl:m-auto" />
                 :
                 <img src={src} alt={alt} className="opacity-75 xl:absolute xl:inset-0 xl:m-auto" />
             }
@@ -25,14 +24,3 @@ GradientImage.propTypes = {
 }
 
 export default GradientImage;
-
-export const query = graphql`
-    fragment ImageFragment on File {
-        childImageSharp {
-            fluid (quality: 100, maxWidth: 1536) {
-                ...GatsbyImageSharpFluid
-                ...GatsbyImageSharpFluidLimitPresentationSize
-            }
-        }
-    }
-`

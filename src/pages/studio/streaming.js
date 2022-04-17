@@ -16,6 +16,7 @@ const StreamingPage = ({data}) => {
   
   return(
     <PageLayout>
+      {/* eslint-disable-next-line */}
       <SEO title="Streaming" />
       <SubPageHero title="Streaming" />
 
@@ -42,7 +43,9 @@ query {
         title
         content
         image {
-          ...ImageFragment
+          childImageSharp {
+            gatsbyImageData(layout: FIXED)
+          }
         }
       }
     }

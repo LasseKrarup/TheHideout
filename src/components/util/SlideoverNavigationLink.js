@@ -4,7 +4,7 @@ import {useSpring, animated} from "react-spring"
 import {useMeasure} from "../../hooks/useMeasure"
 import { Link } from 'gatsby';
 import { v4 as uuid } from "uuid"
-import path from "path"
+import path from "path-browserify"
 
 const SlideoverNavigationLink = ({link, isToggled: propIsToggled, closeSlideover}) => {
     const [isToggled, setIsToggled] = useState(propIsToggled)

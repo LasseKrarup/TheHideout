@@ -18,6 +18,7 @@ const VideoPage = ({data}) => {
   
   return(
     <PageLayout>
+      {/* eslint-disable-next-line */}
       <SEO title="Video" />
       <PageHero title="Video" />
 
@@ -54,7 +55,9 @@ query {
         title
         content
         image {
-          ...ImageFragment
+          childImageSharp {
+            gatsbyImageData(layout: FIXED)
+          }
         }
       }
       priceExamples{

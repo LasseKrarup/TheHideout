@@ -16,6 +16,7 @@ const LivesessionsPage = ({data}) => {
   
   return(
     <PageLayout>
+      {/* eslint-disable-next-line */}
       <SEO title="Live Sessions" />
       <SubPageHero title="Live Sessions" />
 
@@ -42,7 +43,9 @@ query {
         title
         content
         image {
-          ...ImageFragment
+          childImageSharp {
+            gatsbyImageData(layout: FIXED)
+          }
         }
       }
     }

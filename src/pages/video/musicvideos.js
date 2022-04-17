@@ -16,6 +16,7 @@ const MusicvideosPage = ({data}) => {
   
   return(
     <PageLayout>
+      {/* eslint-disable-next-line */}
       <SEO title="Music Videos" />
       <SubPageHero title="Music Videos" />
 
@@ -42,7 +43,9 @@ query {
         title
         content
         image {
-          ...ImageFragment
+          childImageSharp {
+            gatsbyImageData(layout: FIXED)
+          }
         }
       }
     }

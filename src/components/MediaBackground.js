@@ -1,6 +1,6 @@
 import React, {useState, useEffect, useRef} from 'react';
 import PropTypes from 'prop-types';
-import { Img } from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 const VideoHelper = ({src}) => {
     const videoRef = useRef(null)
@@ -23,7 +23,7 @@ VideoHelper.propTypes = {
 const ImageHelper = ({src}) => {
     console.log("Image helper rendered")
     return (
-        <Img fluid={src} />
+        <GatsbyImage image={src} />
     );
 }
 ImageHelper.propTypes = {

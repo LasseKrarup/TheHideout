@@ -13,6 +13,7 @@ import ButtonLink from "../components/atoms/ButtonLink"
 const SuccessPage = () => {
   return(
     <PageLayout isContact>
+      {/* eslint-disable-next-line */}
       <SEO title="Success!" />
       <SubPageHero title="Success" />
 

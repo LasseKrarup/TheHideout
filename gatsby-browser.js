@@ -8,6 +8,6 @@
 
 import "./src/css/style.css"
 
-import "fontsource-major-mono-display"
-import "fontsource-roboto-mono"
-import "fontsource-roboto-mono/300.css"
+import "@fontsource/major-mono-display"
+import "@fontsource/roboto-mono"
+import "@fontsource/roboto-mono/300.css"

@@ -16,6 +16,7 @@ const ContactPage = ({data}) => {
 
   return(
     <PageLayout isContact>
+      {/* eslint-disable-next-line */}
       <SEO title="Contact" />
       <SubPageHero title="Contact" />
 
@@ -50,7 +51,9 @@ query {
         title
         content
         image {
-          ...ImageFragment
+          childImageSharp {
+            gatsbyImageData(layout: FIXED)
+          }
         }
       }
     }

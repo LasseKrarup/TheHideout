@@ -28,7 +28,7 @@ const IndexSection = ({src, alt, title, children, className, prominent, reverse}
       <div className={`relative overflow-hidden xl:grid xl:grid-cols-2 xl:grid-rows-1 xl:gap-4 xl:justify-center ${className}`}>
         <div className={`xl:py-16 xl:col-span-1 xl:flex xl:flex-col xl:justify-center xl:row-start-1 ${reverse && "xl:col-start-2"} ${prominent && "xl:col-span-2 xl:col-start-1"}`}>
           <h3 className={`text-center text-xl relative z-10 lg:text-2xl xl:text-left xl:pl-4 ${prominent && "xl:text-3xl xl:text-center xl:text-yellow-300"}`}>{title}</h3>
-          <div className={`relative z-10 text-gray-300 p-4 ${prominent && "xl:max-w-2xl xl:text-lg xl:mx-auto"}`}>
+          <div className={`relative z-10 text-gray-300 p-4 lg:mx-auto xl:mx-0 max-w-3xl ${prominent && "xl:max-w-2xl xl:text-lg xl:mx-auto"}`}>
             {children}
           </div>
         </div>
@@ -44,17 +44,19 @@ IndexSection.defaultProps = {
 
 const IndexPage = ({data}) => {
   const {markdownRemark: {frontmatter: sections}} = data
+  console.log(sections)
   
   return(
     <IndexLayout>
+      {/* eslint-disable-next-line */}
       <SEO title="The Hideout Studio" />
-      <IndexSection className="mt-8" src={sections.welcome.image.childImageSharp.fluid} alt="Guy in studio" title={sections.welcome.title} prominent>
+      <IndexSection className="mt-8" src={sections.welcome.image.childImageSharp.gatsbyImageData} alt="Guy in studio" title={sections.welcome.title} prominent>
         <Markdown>
           {sections.welcome.content}
         </Markdown>
       </IndexSection>
 
-      <IndexSection src={sections.studio.image.childImageSharp.fluid} alt="Studio stuff" title={sections.studio.title}>
+      <IndexSection src={sections.studio.image.childImageSharp.gatsbyImageData} alt="Studio stuff" title={sections.studio.title}>
         <Markdown>
           {sections.studio.content}
         </Markdown>
@@ -62,7 +64,7 @@ const IndexPage = ({data}) => {
         </Paragraph>
       </IndexSection>
 
-      <IndexSection src={sections.video.image.childImageSharp.fluid} alt="Video camera" title={sections.video.title} reverse>
+      <IndexSection src={sections.video.image.childImageSharp.gatsbyImageData} alt="Video camera" title={sections.video.title} reverse>
         <Markdown>
           {sections.video.content}
         </Markdown>
@@ -71,7 +73,7 @@ const IndexPage = ({data}) => {
         </Paragraph>
       </IndexSection>
 
-      <IndexSection src={sections.photo.image.childImageSharp.fluid} alt="Photography cam" title={sections.photo.title}>
+      <IndexSection src={sections.photo.image.childImageSharp.gatsbyImageData} alt="Photography cam" title={sections.photo.title}>
         <Markdown>
             {sections.photo.content}
         </Markdown>
@@ -94,28 +96,36 @@ query {
         content
         title
         image {
-          ...ImageFragment
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH)
+          }
         }
       }
       studio {
         content
         title
         image {
-          ...ImageFragment
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH)
+          }
         }
       }
       video {
         content
         title
         image {
-          ...ImageFragment
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH)
+          }
         }
       }
       photo {
         content
         title
         image {
-          ...ImageFragment
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH)
+          }
         }
       }
     }

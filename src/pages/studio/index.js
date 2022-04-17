@@ -18,6 +18,7 @@ const StudioPage = ({data}) => {
   
   return(
     <PageLayout>
+      {/* eslint-disable-next-line */}
       <SEO title="Studio" />
       <PageHero title="Studio" />
 
@@ -54,7 +55,9 @@ query {
         title
         content
         image {
-          ...ImageFragment
+          childImageSharp {
+            gatsbyImageData(layout: FIXED)
+          }
         }
       }
       priceExamples{

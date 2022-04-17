@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Link } from "gatsby"
 import PropTypes from 'prop-types';
-import path from "path"
+import path from "path-browserify"
 import { v4 as uuid } from "uuid"
 import {useSpring, animated} from "react-spring"
 

@@ -1,21 +1,19 @@
-import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
-import Img from "gatsby-image"
+import { StaticImage } from "gatsby-plugin-image"
 
 
-const Logo = (props) => {
-    const {imageSharp: {fluid: logo}} = useStaticQuery(graphql`
-        {
-            imageSharp(fluid: {originalName: {eq: "hideout-icon.png"}}) {
-                fluid(maxWidth: 512) {
-                    ...GatsbyImageSharpFluid
-                }
-            }
-        }
-    `)
+const Logo = ({ className }) => {
 
     return (
-      <Img {...props} fluid={logo} alt="Logo"></Img>
+      <StaticImage
+        src="../../images/hideout-icon.png"
+        alt="Logo"      
+        placeholder="blurred"
+        layout="constrained"
+        width={512}
+        height={512}
+        className={className}
+      />
     );
 }
 
