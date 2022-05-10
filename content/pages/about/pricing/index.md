@@ -14,8 +14,7 @@ priceExamples:
   - content: 1 day in the Hideout studio. 10 hours All recording sessions are run by
       fully qualified engineer
     title: 1 day in the Hideout studio
-    price: " 3.500 DKK (470 €/ 566 $) (VAT incl. so no VAT will be added to the
-      total cost.)"
+    price: " 3.500 DKK  (VAT incl. so no VAT will be added to the total cost.)"
   - title: Livesession in the studio ( Video, audio and visual postwork )
     content: |-
       8 hours recording / video session in the studio .\
@@ -28,32 +27,27 @@ priceExamples:
       First video 6.500 DKK
 
       Hereafter 3.000 DKK Pr video.
-    price: Three videos, including postwork and two revisons 10.500 DKK (1.400
-      €/1.700$) (VAT incl. so no VAT will be added to the total cost.)
+    price: Three videos, including postwork and two revisons 10.500 DKK (VAT incl.
+      so no VAT will be added to the total cost.)
   - title: "Mixing "
     content: |-
       Mixing prices pr song (VAT incl.) 2.500
 
-      Volume discount will be offered please contact us for an offer.
-
-      Recordings done in the studio will be mixed with a discount. 
+      Volume discount might be offered please contact us for an offer.
 
       *Two revisions included.*
-    price: 1 song mixed 2.500 DKK (335€/380 $)  (VAT incl. so no VAT will be added
-      to the total cost.)
+    price: 1 song mixed 2.500 DKK   (VAT incl. so no VAT will be added to the total
+      cost.)
   - title: Mastering
-    content: >-
-      Mastering pr song 450 kr. Volume discount will be offered please contact
-      us for an offer. 
-
+    content: |-
+      Mastering pr song 450 kr. 
 
       2 revisions included in the price
-    price: 1 track mastered 450 DKK (75€/89$)  (VAT incl. so no VAT will be added to
-      the total cost.)
+    price: 1 track mastered 450 DKK  (VAT incl. so no VAT will be added to the total
+      cost.)
   - title: Photoshoot
     content: Three hours photoshoot in the studio including 10 digital pictures.
-    price: 2.000 DKK (270 €/325$) (VAT incl. so no VAT will be added to the total
-      cost.)
+    price: 2.000 DKK (VAT incl. so no VAT will be added to the total cost.)
   - content: >-
       Piano tuning before recording with the Steinway B-211 (Local piano tuner
       "Klaverstemmeren")
@@ -61,5 +55,5 @@ priceExamples:
 
       ( The grand piano is always available. )
     title: Use of Steinway B-211
-    price: 800 DKK (110€/130$) (VAT incl. so no VAT will be added to the total cost.)
+    price: 800 DKK  (VAT incl. so no VAT will be added to the total cost.)
 ---
