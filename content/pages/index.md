@@ -9,19 +9,7 @@ welcome:
     **The Hideout Studio is a "One Stop Studio" where we are able to take care of the following.**
 
 
-    * **Recording**
-
-    * **Mixing**
-
-    * **Mastering**
-
-    * **Video and livesessions**
-
-    * **Promo foto**
-
-    * **Music distribution** 
-
-    * **"Tax for musicians"**
+    * **Recording, Mixing, Mastering, Video and livesessions, Promo foto, Music distribution ,"Tax for musicians"**
 
 
 
