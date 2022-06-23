@@ -3,13 +3,13 @@ bgvideo: /img/bgvideo.mp4
 welcome:
   title: Studio in the heart of Aalborg, DK
   content: >-
-    **Welcome to The Hideout Studio!**
+    # **Welcome to The Hideout Studio!**
 
 
     **The Hideout Studio is a "One Stop Studio" where we are able to take care of the following:**
 
 
-    * **Recording, Mixing, Mastering, Video and livesessions, Promo photo, Music distribution and "Tax for musicians"**
+    * **Recording, Mixing, Mastering, Video and livesessions, Promo photosessions, Music distribution and "Tax for musicians"**
 
 
 
