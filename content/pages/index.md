@@ -14,7 +14,7 @@ studio:
     Welcome to The Hideout Studio located in Aalborg
 
 
-    The heart of the studio is our control room. Dominated by old-school analogue equipment combined with modern hardware and software. 
+    The heart of the studio is our control room.. Dominated by old-school analogue equipment combined with modern hardware and software. 
 
 
     The main recording room have all your heart might desire including old Vox and Fender amplifiers as well as our 1896 Steinway & Sons B211 grand piano.
