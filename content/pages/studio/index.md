@@ -52,9 +52,30 @@ priceExamples:
 
        *2 revisions included in the price.*
   - title: Mastering
-    content: |-
+    content: >-
       Mastering pr song 450 kr.
 
+
       2 revisions included in the price
+
+
+
+
+      Before mastering please be prepared to answer the following questions :
+
+
+      * What is the intended release format and medium (CD, vinyl, iTunes, DVD-A etc.)?
+
+      * What is the final track sequence/order of songs?
+
+      * What track is going to be the first (second...) single?
+
+      * What track is your favorite mix in terms of sound?
+
+      * Is there a commercial CD release you would like me to use as a sonic guideline/example of sound you like?
+
+      * Any special requests: e.g. fades, edits.
+
+      * Any known issues: e.g. clicks, pops, noise to be removed.
     price: 450  DKK (VAT incl. so no VAT will be added to the total cost.)
 ---
