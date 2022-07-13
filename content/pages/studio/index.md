@@ -77,5 +77,7 @@ priceExamples:
       * Any special requests: e.g. fades, edits.
 
       * Any known issues: e.g. clicks, pops, noise to be removed.
+
+        ![](/img/the-hideout-foto-2-skærm.jpeg)
     price: 450  DKK (VAT incl. so no VAT will be added to the total cost.)
 ---
