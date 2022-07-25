@@ -2,11 +2,7 @@
 welcome:
   title: Who are we?
   content: >-
-    
-
-    Music Studio in the heart of Aalborg Denmark. 
-
-
+    # Music Studio in the heart of Aalborg Denmark. 
 
 
     The heart of the studio is our control room. Dominated by old-school analogue equipment combined with modern hardware and software. 
@@ -19,5 +15,100 @@ welcome:
 
 
     All gear in the studio is at your free disposal.
-  image: /img/pexels-roman-koval-4040362.jpg
+
+
+    <https://www.facebook.com/hideoutmusicunlimited>
+
+
+    \---------------------------------------------------------------------------------------------------------
+
+
+    # Velkommen til vores musikstudie i Aalborg. 
+
+
+    Lidt om studiet:
+
+
+    \- Tre individuelle indspilnings rum.
+
+
+    \- Steinway B211 flygel fra 1896 til rådighed uden meromkostning.
+
+
+    \- Diverse Fender, Vox og Gallien Krüger forstærkere til rådighed.
+
+
+    \- Personligt monitormix til hver musiker, dette styres let og simpelt af musikeren selv via en of vores 6 monitorcontrollere som står fordelt i studiet.
+
+
+    \- Køkken, bad og toilet. 
+
+
+    # ***Hvad vi kan tilbyde:***
+
+
+    ## Indspilning
+
+
+    Indspilning er mere end "bare nogle mikrofoner og en computer".
+
+
+    Indspilning er hele processen fra lydkilden til sporene ligger digitalt i DAW,  fra kilden igennem mikrofonen, til preamps og A/D konvertering i det digitale domæne. Vi har erfaring med en bred vifte af forskellige typer af musik og bands, ligefra "World Music" til POP, Jazz, Rock og Metal, så tøv ikke med at tage kontakt uanset band type og sammensætning.
+
+
+    ##### Processen 
+
+
+    Processen ved en indspilning starter før selve indspilningsdagen, vi har rigtig gode erfaringer med at lave en "indspilningsplan" før den aftalte indspilning. Planen danner basis for hvad der skal indspilles hvornår, men danner samtidig også grundlag for en samtale indbyrdes i bandet som sikre at bandet er 100 procent klar til at indspille. Efter indspilning går processen ind i postproduktionsfasen.
+
+
+    ## Mixing
+
+
+    Mixing er processen hvor nummeret kommer til live, her formes de individuelle spor og samles til ét enkelt stereospor. Processen er et sammenspil mellem kunstner og mix engineer, hvor mixet sendes frem og tilbage mellem hver revision. 
+
+
+    For at gøre processen mest effektiv og tilfredsstilende, for begge parter, er det vigtigt med konkret feedback på numrene, ydermere kan referencer i form af fx. Spotify links sendes forud for mixing.
+
+
+    ## Mastering
+
+
+    **"Mastering er det sidste kreative led i processen, samt det første led i distributionsprocessen"** 
+
+
+    Mastering er processen hvor man skaber det optimale format til videre distribution, samt optimere "masterens" overordnede balance for at være konkurencedygtig i et konkurencepræget streamning marked.
+
+
+
+
+    ## Distribution 
+
+
+    **"Nu skal musikken ud"**
+
+
+    Når musikken skal "ud" er vi også behjælpelig med denne proces, vi står klar til at hjælpe med :
+
+
+    \- Udgivelserne på alle de gængse streamingtjenester
+
+
+    \- KODA og GRAMEX
+
+
+    \- ISRC kode
+
+
+    \- Spotify Promo Cards
+
+
+    \- Presave Link
+
+
+    \- Landing Page
+
+
+    \- Udgivelse gennem Orchard / DIGIDI
+  image: /img/the-hideout-foto-1-mixer.jpeg
 ---
