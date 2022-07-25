@@ -9,9 +9,7 @@ welcome:
     **The Hideout Studio is a "One Stop Studio" where we are able to take care of the following:**
 
 
-    * **Recording, Mixing, Mastering, Video and livesessions, Promo photosessions, Music distribution and "Tax for musicians"**
-
-
+    * **Recording, Mixing, Mastering, Video and livesessions, Promo photosessions and Music distribution.**
 
 
     **"Recording studio in the heart of Aalborg. Professional and cozy setting. We always have fresh coffee brewing."**
