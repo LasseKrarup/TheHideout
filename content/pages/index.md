@@ -13,6 +13,17 @@ welcome:
 
 
     **"Recording studio in the heart of Aalborg. Professional and cozy setting. We always have fresh coffee brewing."**
+
+
+
+
+    **Check Our SoMe**
+
+
+    <https://www.facebook.com/hideoutmusicunlimited>
+
+
+    <https://www.instagram.com/thehideoutstudio/>
   image: /img/the-hideout-foto-4-flygel.jpeg
 studio:
   title: Studio
