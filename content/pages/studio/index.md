@@ -51,7 +51,7 @@ welcome:
     ## \-Produktion
 
 
-    Sidder du/i med et nummer, eller måske ligefrem med et album som i gerne vil have et sæt ekstra ører på før indspilning? Hvis svaret er ja, så er vi klar til at tage producerhatten på og komme med relevant og fagligt funderet  feedback. Talrige produktion, indspilninger, mixes og en konservatorie baggrund, sikre en stor musikalsk balast og genre alsidighed.
+    Sidder du/i med et nummer, eller måske ligefrem med et album som i gerne vil have et sæt ekstra ører på før indspilning? Hvis svaret er ja, så er vi klar til at tage producerhatten på og komme med relevant og fagligt funderet feedback. Talrige produktion, indspilninger, mixes og en konservatorie baggrund, sikre en stor musikalsk balast og genre alsidighed. Produktionsøver kan ske i studiets lokaler, eller hos jer i jeres øvelokale.
   image: /img/foto-the-hideout-3-studiet.jpeg
 priceExamples:
   - title: 5 days in the studio
