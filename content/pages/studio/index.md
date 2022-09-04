@@ -40,7 +40,18 @@ welcome:
     Studiet er bygget op omkring vores controlroom med ophold, hvorfra der er frit udsyn til vores primære liveroom samt vores mindre sekundære afskærmede "boks". 
 
 
-    Studiet råder over udstyr lige fra vores Steinway & Sons B211 flygel fra 1896 og analog Pult, til topmoderne Avid Carbon Interface, personlig digital monitorcontroller til hver musiker og alt der imellem, alt udstyr er til fri afbenyttelse.
+    Studiet råder over udstyr lige fra vores Steinway & Sons B211 flygel fra 1896 og analog Pult, til topmoderne Avid Carbon Interface, personlig digital monitorcontroller til hver musiker og alt der imellem, alt udstyr er til fri afbenyttelse. 
+
+
+    Vores Ydelser kort fortalt
+
+
+
+
+    ## \-Produktion
+
+
+    Sidder du/i med et nummer, eller måske ligefrem med et album som i gerne vil have et sæt ekstra ører på før indspilning? Hvis svaret er ja, så er vi klar til at tage producerhatten på og komme med relevant og fagligt funderet  feedback. Talrige produktion, indspilninger, mixes og en konservatorie baggrund, sikre en stor musikalsk balast og genre alsidighed.
   image: /img/foto-the-hideout-3-studiet.jpeg
 priceExamples:
   - title: 5 days in the studio
