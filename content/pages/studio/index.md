@@ -25,13 +25,14 @@ welcome:
 
 
 
-    # Musikstudie i hjertet af Aalborg
-
-
-    # Vi varetager opgaver som  Produktion, Indspilning, Livesions, Promo Foto,  Mixing, Mastering, Audio Cleanup/Restoration, Voiceover Recording samt Udgivelser.
-
-
     ![Studie I Aalborg](/img/the-hideout-foto-4-flygel.jpeg "Steinway & Sons")
+
+
+    > # **Musikstudie i hjertet af Aalborg**
+
+    >
+
+    > # **Vi varetager opgaver som  Produktion, Indspilning, Livesions, Promo Foto,  Mixing, Mastering, Audio Cleanup/Restoration, Voiceover Recording samt Udgivelser.**
 
 
     Vi vil gerne byde velkommen i vores indspilnings og postproduktions studie i Aalborg. 
