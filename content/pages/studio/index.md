@@ -2,8 +2,10 @@
 welcome:
   title: Recording. Mixing. Mastering
   content: >-
-    Recording studio in the heart of Aalborg. Professional and cozy setting. We
-    always have fresh coffee brewing.
+    # Recording studio in the heart of Aalborg.  
+
+
+    ###### We always have fresh coffee brewing.
 
 
     The heart of the studio is our control room. Dominated by old-school analogue equipment combined with modern hardware and software. 
@@ -19,6 +21,23 @@ welcome:
 
 
     We also offer both mixing and mastering for your projects whether or not your recording has been done in-house.
+
+
+
+
+    # Musikstudie i hjertet af Aalborg
+
+
+    ### Vi varetager opgaver som  Produktion, Indspilning, Livesions, Promo Foto,  Mixing, Mastering, Audio Cleanup/Restoration, Voiceover Recording samt Udgivelse. 
+
+
+    Vi vil gerne byde velkommen i vores indspilnings og postproduktions studie i Aalborg. 
+
+
+    Studiet er bygget op omkring vores controlroom med ophold, hvorfra der er frit udsyn til vores primære liveroom samt vores mindre sekundære afskærmede "boks". 
+
+
+    Studiet råder over udstyr lige fra vores Steinway & Sons B211 flygel fra 1896 og analog Pult, til topmoderne Avid Carbon Interface, personlig digital monitorcontroller til hver musiker og alt der imellem, alt udstyr er til fri afbenyttelse.
   image: /img/the-hideout-foto-4-flygel.jpeg
 priceExamples:
   - title: 5 days in the studio
