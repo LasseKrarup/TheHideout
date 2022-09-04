@@ -28,7 +28,10 @@ welcome:
     # Musikstudie i hjertet af Aalborg
 
 
-    ### Vi varetager opgaver som  Produktion, Indspilning, Livesions, Promo Foto,  Mixing, Mastering, Audio Cleanup/Restoration, Voiceover Recording samt Udgivelse. 
+    ### Vi varetager opgaver som  Produktion, Indspilning, Livesions, Promo Foto,  Mixing, Mastering, Audio Cleanup/Restoration, Voiceover Recording samt Udgivelser.
+
+
+    ![Studie I Aalborg](/img/the-hideout-foto-4-flygel.jpeg "Steinway & Sons")
 
 
     Vi vil gerne byde velkommen i vores indspilnings og postproduktions studie i Aalborg. 
@@ -38,7 +41,7 @@ welcome:
 
 
     Studiet råder over udstyr lige fra vores Steinway & Sons B211 flygel fra 1896 og analog Pult, til topmoderne Avid Carbon Interface, personlig digital monitorcontroller til hver musiker og alt der imellem, alt udstyr er til fri afbenyttelse.
-  image: /img/the-hideout-foto-4-flygel.jpeg
+  image: /img/foto-the-hideout-3-studiet.jpeg
 priceExamples:
   - title: 5 days in the studio
     content: |-
