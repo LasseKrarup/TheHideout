@@ -56,14 +56,6 @@ welcome:
     <https://www.youtube.com/results?search_query=chop+builder+frank+gambale+>
   image: /img/foto-the-hideout-3-studiet.jpeg
 priceExamples:
-  - title: 5 days in the studio
-    content: |-
-      5 days in the Hideout studio.
-
-      10 hours
-
-      All recording sessions are run by fully qualified engineer
-    price: 15.000 DKK (VAT incl. so no VAT will be added to the total cost.)
   - title: 1 day in the studio.
     content: |-
       1 day in the HIdeout studio.
@@ -79,7 +71,7 @@ priceExamples:
       All recording sessions are run by fully qualified engineer
     price: 450 DKK (VAT incl. so no VAT will be added to the total cost.)
   - title: Mixing
-    price: 1500 DKK (VAT incl. so no VAT will be added to the total cost.)
+    price: 2500 DKK (VAT incl. so no VAT will be added to the total cost.)
     content: |-
       Mixing pr song 2.500 DKK
 
