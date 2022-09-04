@@ -2,7 +2,7 @@
 welcome:
   title: Recording. Mixing. Mastering
   content: >-
-    # Recording studio in the heart of Aalborg.  
+    # Recording studio in the heart of Aalborg.
 
 
     ###### We always have fresh coffee brewing.
@@ -21,8 +21,6 @@ welcome:
 
 
     We also offer both mixing and mastering for your projects whether or not your recording has been done in-house.
-
-
 
 
     ![Studie I Aalborg](/img/the-hideout-foto-4-flygel.jpeg "Steinway & Sons")
@@ -47,12 +45,15 @@ welcome:
     Vores Ydelser kort fortalt
 
 
-
-
     ## \-Produktion
 
 
     Sidder du/i med et nummer, eller måske ligefrem med et album som i gerne vil have et sæt ekstra ører på før indspilning? Hvis svaret er ja, så er vi klar til at tage producerhatten på og komme med relevant og fagligt funderet feedback. Talrige produktion, indspilninger, mixes og en konservatorie baggrund, sikre en stor musikalsk balast og genre alsidighed. Produktionsøver kan ske i studiets lokaler, eller hos jer i jeres øvelokale.
+
+
+
+
+    <https://www.youtube.com/results?search_query=chop+builder+frank+gambale+>
   image: /img/foto-the-hideout-3-studiet.jpeg
 priceExamples:
   - title: 5 days in the studio
