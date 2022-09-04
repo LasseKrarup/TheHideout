@@ -53,7 +53,11 @@ welcome:
 
 
 
-    <https://www.youtube.com/results?search_query=chop+builder+frank+gambale+>
+    ```
+
+    https://www.youtube.com/results?search_query=chop+builder+frank+gambale+
+
+    ```
   image: /img/foto-the-hideout-3-studiet.jpeg
 priceExamples:
   - title: 1 day in the studio.
