@@ -33,10 +33,10 @@ welcome:
     > # **Vi varetager opgaver som  Produktion, Indspilning, Livesions, Promo Foto,  Mixing, Mastering, Audio Cleanup/Restoration, Voiceover Recording samt Udgivelser.**
 
 
-    Vi vil gerne byde velkommen i vores indspilnings og postproduktions studie i Aalborg. 
+    Vi vil gerne byde velkommen i vores indspilnings og postproduktions studie i Aalborg.
 
 
-    Studiet er bygget op omkring vores controlroom med ophold, hvorfra der er frit udsyn til vores primære liveroom samt vores mindre sekundære afskærmede "boks". 
+    Musik studiet i Aalborg er bygget op omkring vores controlroom med ophold, hvorfra der er frit udsyn til vores primære liveroom samt vores mindre sekundære afskærmede "boks". 
 
 
     Studiet råder over udstyr lige fra vores Steinway & Sons B211 flygel fra 1896 og analog Pult, til topmoderne Avid Carbon Interface, personlig digital monitorcontroller til hver musiker og alt der imellem, alt udstyr er til fri afbenyttelse. 
@@ -62,7 +62,10 @@ welcome:
 
 
 
-    ## \-﻿Mastering
+    ## \-﻿Mastering 
+
+
+    S﻿idder du med er færdigt mix er mastering det naturlige næste skridt i processen mod udgivelse. I mastering får din musik et sæt "friske ører" og eventuelle problemer i mixet vil blive italesat. Helheden bliver poleret og optimeret til kommerciel konkurencedygtig udgivelse. Uanset niveau på mixet er mastering uundværlig, det er sidste chance for at tjekke for detaljer man i mixet har lyttet sig blind på. I mastering er det nummeret som helhed der er i fokus.
   image: /img/foto-the-hideout-3-studiet.jpeg
 priceExamples:
   - title: 1 day in the studio.
