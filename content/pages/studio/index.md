@@ -48,7 +48,21 @@ welcome:
     ## \-Produktion
 
 
-    Sidder du/i med et nummer, eller måske ligefrem med et album som i gerne vil have et sæt ekstra ører på før indspilning? Hvis svaret er ja, så er vi klar til at tage producerhatten på og komme med relevant og fagligt funderet feedback. Talrige produktion, indspilninger, mixes og en konservatorie baggrund, sikre en stor musikalsk balast og genre alsidighed. Produktionsøver kan ske i studiets lokaler, eller hos jer i jeres øvelokale.
+    Sidder du/i med et nummer, eller måske ligefrem med et album som i gerne vil have et sæt ekstra ører på før indspilning? Hvis svaret er ja, så er vi klar til at tage producerhatten på og komme med relevant og fagligt funderet feedback. Talrige produktion, indspilninger, mixes og en konservatorie baggrund, sikre en stor musikalsk balast og genre alsidighed. Produktionsøver kan ske i studiets lokaler, eller hos jer i jeres øvelokale. Musikstudiet ligger i Aalborg. 
+
+
+    ## \-﻿Mixing
+
+
+    Vi sidder klar til hjælpe med at mixe dit nummer. Med stor erfaring i mange forskellige genre sidder vi klar til at mixe dine/jeres spor.
+
+
+    M﻿ixing er en dialog mellem mix-engineer og artisten, en dialog vi tager meget alvorligt for at netop dit musikalske budskab træder frem i din musik. Hvis det ønskes kan mix revisioner foretaget i vores studie i Aalborg. 
+
+
+
+
+    ## \-﻿Mastering
   image: /img/foto-the-hideout-3-studiet.jpeg
 priceExamples:
   - title: 1 day in the studio.
