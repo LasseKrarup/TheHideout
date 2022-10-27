@@ -30,7 +30,7 @@ welcome:
 
     >
 
-    > # **Vi varetager opgaver som  Produktion, Indspilning, Livesions, Promo Foto,  Mixing, Mastering, Audio Cleanup/Restoration, Voiceover Recording samt Udgivelser.**
+    > # **Vi varetager opgaver som  Produktion, Indspilning, Livesions, Promo Foto,  Mixing, Mastering, Audio Cleanup/ LYD Restoration, Voiceover Recording samt Udgivelser.**
 
 
     Vi vil gerne byde velkommen i vores indspilnings og postproduktions studie i Aalborg.
@@ -73,6 +73,30 @@ welcome:
 
 
     Vi har i The Hideout Studio gennem årene lavet et utal af livesessions, hvor vi med vores stemningsfulde omgivelser og håndholdte kamera “fanger nuet” i musikken. Livessesions er en effektiv måde at få sit musikalske budskab ud til et størrer publikkum, samt kan give en fordel i forbindelse med bookinger da spillestederne og publikum kan se jer spille live.
+
+
+
+
+    ## **\-Audio Cleanup/ LYD Restoration** 
+
+
+    Sidder du med et lydspor med støj? Uhensigtsmæssige mislyde? Knitren? Host fra publikum? Dårlig optaget podcast? 
+
+
+    Listen med problemer kan være lang, men vi står klar til at hjælpe.
+
+
+
+
+
+
+    ## **\- Voiceover Recording** 
+
+
+    Vi har stor erfaringer med optagelse af voiceover, lige fra reklamespots for internationale virksomheder, præsentationsvideoer for bands / artister,  præsentation af forskningsresultater og podcasts. 
+
+
+    Om du er helt grøn på området, eller professionel voice actor, er vi klar til at optage og post producere tale.
   image: /img/foto-the-hideout-3-studiet.jpeg
 priceExamples:
   - title: 1 day in the studio.
