@@ -84,12 +84,7 @@ priceExamples:
     price: 450 DKK (VAT incl. so no VAT will be added to the total cost.)
   - title: Mixing
     price: 2500 DKK (VAT incl. so no VAT will be added to the total cost.)
-    content: |-
-      Mixing pr song 2.500 DKK
-
-      You want more than three song? Contact us for a price. 
-
-       *2 revisions included in the price.*
+    content: Mixing pr song 2.500 DKK
   - title: Mastering
     content: >-
       Mastering pr song 450 kr.
