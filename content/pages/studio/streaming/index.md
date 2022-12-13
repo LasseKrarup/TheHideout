@@ -12,5 +12,5 @@ welcome:
 
 
     Recordings can be done either at The Hideout Studio or on location.
-  image: /img/pexels-roman-koval-4040362.jpg
+  image: /img/the-hideout-foto-1-mixer.jpeg
 ---
