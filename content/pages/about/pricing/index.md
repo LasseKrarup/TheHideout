@@ -6,9 +6,10 @@ welcome:
     contact the studio by our "contact page".
 
 
-
-
     ***Indicative rates***
+
+
+    ***V﻿i værdsætter åbenhed omkring priser hvormed vi, i modsætning til mange andre studier, har valgt ikke at opgive vores priser eksklusiv moms, men inklusiv moms,  du får dermed ingen ubehagelig overaskelse når du modtager en regning.***
   image: null
 priceExamples:
   - content: |-
