@@ -9,7 +9,10 @@ welcome:
     ***Indicative rates***
 
 
-    *V﻿i værdsætter åbenhed omkring priser hvormed vi, i modsætning til mange andre studier, har valgt ikke at opgive vores priser eksklusiv moms, men inklusiv moms,  du får dermed ingen ubehagelig overaskelse når du modtager en regning.*
+    *V﻿i værdsætter åbenhed omkring priser hvormed vi, i modsætning til mange andre studier, har valgt ikke at opgive vores priser eksklusiv moms, men inklusiv moms,  du får dermed ingen ubehagelig overaskelse når du modtager en regning.* 
+
+
+    ***H﻿usk momsen når/hvis du sammenligner priser med andre studier.***
   image: null
 priceExamples:
   - content: |-
