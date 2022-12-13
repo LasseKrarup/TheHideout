@@ -29,10 +29,13 @@ welcome:
     # V﻿elkommen til The Hideout Studio!
 
 
-    V﻿i i The Hideout Studio er stolte over at kunne være et "One Stop Studio", hvilket betyder at vi kan tilbyde service indenfor følgende:
+    *D﻿a vi er så heldige at mange af vores kunder kommer fra udlandet, vil du/i opleve at vores hjemmeside overvejende er på engelsk.*
 
 
-    **\-﻿ Indspilning, Mix, Mastering, Video og Livesessions,  Fotoshoot og musikdistribution.**
+    V﻿i i The Hideout Studio er stolte over at kunne kalde os et "One Stop Studio", hvilket betyder at vi kan tilbyde service indenfor følgende.
+
+
+    **Indspilning, Mix, Mastering, Video og Livesessions, Fotoshoot og Musikdistribution.**
   image: /img/the-hideout-foto-4-flygel.jpeg
 studio:
   title: Studio
