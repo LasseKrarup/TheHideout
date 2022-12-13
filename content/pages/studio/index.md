@@ -114,16 +114,14 @@ priceExamples:
       All recording sessions are run by fully qualified engineer
     price: 450 DKK (VAT incl. so no VAT will be added to the total cost.)
   - title: Mixing
-    price: 2500 DKK (VAT incl. so no VAT will be added to the total cost.)
-    content: Mixing pr song 2.500 DKK
+    price: 3.000 DKK (VAT incl. so no VAT will be added to the total cost.)
+    content: Mixing pr song 3.000 DKK.
   - title: Mastering
     content: >-
-      Mastering pr song 450 kr.
+      Mastering pr song 500 kr.
 
 
       2 revisions included in the price
-
-
 
 
       Before mastering please be prepared to answer the following questions :
@@ -144,5 +142,5 @@ priceExamples:
       * Any known issues: e.g. clicks, pops, noise to be removed.
 
         ![](/img/the-hideout-foto-2-skærm.jpeg)
-    price: 450  DKK (VAT incl. so no VAT will be added to the total cost.)
+    price: 500  DKK (VAT incl. so no VAT will be added to the total cost.)
 ---
