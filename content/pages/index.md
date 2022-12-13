@@ -36,6 +36,9 @@ welcome:
 
 
     **Indspilning, Mix, Mastering, Video og Livesessions, Fotoshoot og Musikdistribution.**
+
+
+    **L﻿æs mere om vores ydelser her** <https://thehideout.dk/about/>
   image: /img/the-hideout-foto-4-flygel.jpeg
 studio:
   title: Studio
