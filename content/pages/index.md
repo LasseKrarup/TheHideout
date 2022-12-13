@@ -15,8 +15,6 @@ welcome:
     **"Recording studio in the heart of Aalborg. Professional and cozy setting. We always have fresh coffee brewing."**
 
 
-
-
     **Check Our SoMe**
 
 
@@ -24,6 +22,17 @@ welcome:
 
 
     <https://www.instagram.com/thehideoutstudio/>
+
+
+
+
+    # V﻿elkommen til The Hideout Studio!
+
+
+    V﻿i i The Hideout Studio er stolte over at kunne være et "One Stop Studio", hvilket betyder at vi kan tilbyde service indenfor følgende:
+
+
+    **\-﻿ Indspilning, Mix, Mastering, Video og Livesessions,  Fotoshoot og musikdistribution.**
   image: /img/the-hideout-foto-4-flygel.jpeg
 studio:
   title: Studio
