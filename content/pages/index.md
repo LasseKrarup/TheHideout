@@ -39,7 +39,7 @@ welcome:
 
 
     **L﻿æs mere om vores ydelser her** <https://thehideout.dk/about/>
-  image: /img/the-hideout-foto-4-flygel.jpeg
+  image: /img/black.png
 studio:
   title: Studio
   content: >-
