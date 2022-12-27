@@ -67,7 +67,7 @@ video:
     A video connects an artist and a listener.
 
     We make professional videos on location and in the studio.
-  image: /img/the-hideout-foto-5-johannes.jpeg
+  image: /img/073a9982-edit.jpg
 photo:
   title: Photo
   content: |-
