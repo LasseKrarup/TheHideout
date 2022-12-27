@@ -2,11 +2,15 @@
 welcome:
   title: Capture the moment
   content: |-
+    ![](/img/073a5732.jpg)
+
+    ![](/img/the-hideout-foto-5-johannes.jpeg)
+
+    ![](/img/073a1389.jpg)
+
     Capture the moment
 
     Capture the emotions
-
-
 
     ![](/img/073a9982-edit.jpg)
 
