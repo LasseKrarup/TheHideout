@@ -2,6 +2,10 @@
 welcome:
   title: Look professional
   content: |-
+    W﻿ant something different?
+
+
+
     \- Corporate and actor headshots
 
     \- Business portraits
@@ -11,5 +15,5 @@ welcome:
     \- Industry reportage 
 
     \- Product catalogs.
-  image: /img/jason-wong-uBn9T18v4iU-unsplash.jpg
+  image: /img/073a1224.jpg
 ---
