@@ -12,5 +12,5 @@ welcome:
 
 
     Locations out of the studio is also an option.
-  image: /img/69351181_941616109516750_6045543906551005184_o.jpg
+  image: /img/073a7364.jpg
 ---
