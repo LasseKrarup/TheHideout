@@ -3,6 +3,19 @@ bgvideo: /img/the-hideout-studio-billede.mp4
 welcome:
   title: Studio in the heart of Aalborg, DK
   content: >-
+    **Check Our SoMe!!!!**
+
+
+    **<https://www.facebook.com/hideoutmusicunlimited>**
+
+
+    **<https://www.instagram.com/thehideoutstudio/>**
+
+
+
+
+
+
     # **Welcome to The Hideout Studio!**
 
 
@@ -13,15 +26,6 @@ welcome:
 
 
     **"Recording studio in the heart of Aalborg. Professional and cozy setting. We always have fresh coffee brewing."**
-
-
-    **Check Our SoMe**
-
-
-    <https://www.facebook.com/hideoutmusicunlimited>
-
-
-    <https://www.instagram.com/thehideoutstudio/>
 
 
 
