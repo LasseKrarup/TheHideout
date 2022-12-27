@@ -2,7 +2,7 @@
 welcome:
   title: Who are we?
   content: >-
-    # Music Studio in the heart of Aalborg Denmark. 
+    # Music Studio in the heart of Aalborg Denmark.
 
 
     The heart of the studio is our control room. Dominated by old-school analogue equipment combined with modern hardware and software. 
@@ -17,13 +17,13 @@ welcome:
     All gear in the studio is at your free disposal.
 
 
-    <https://www.facebook.com/hideoutmusicunlimited>
+    <https://www.instagram.com/thehideoutstudio/>
 
 
     \---------------------------------------------------------------------------------------------------------
 
 
-    # Velkommen til vores musikstudie i Aalborg. 
+    # Velkommen til vores musikstudie i Aalborg.
 
 
     Lidt om studiet:
@@ -56,7 +56,7 @@ welcome:
     Indspilning er hele processen fra lydkilden til sporene ligger digitalt i DAW,  fra kilden igennem mikrofonen, til preamps og A/D konvertering i det digitale domæne. Vi har erfaring med en bred vifte af forskellige typer af musik og bands, ligefra "World Music" til POP, Jazz, Rock og Metal, så tøv ikke med at tage kontakt uanset band type og sammensætning.
 
 
-    ##### Processen 
+    ##### Processen
 
 
     Processen ved en indspilning starter før selve indspilningsdagen, vi har rigtig gode erfaringer med at lave en "indspilningsplan" før den aftalte indspilning. Planen danner basis for hvad der skal indspilles hvornår, men danner samtidig også grundlag for en samtale indbyrdes i bandet som sikre at bandet er 100 procent klar til at indspille. Efter indspilning går processen ind i postproduktionsfasen.
@@ -80,9 +80,7 @@ welcome:
     Mastering er processen hvor man skaber det optimale format til videre distribution, samt optimere "masterens" overordnede balance for at være konkurencedygtig i et konkurencepræget streamning marked.
 
 
-
-
-    ## Distribution 
+    ## Distribution
 
 
     **"Nu skal musikken ud"**
