@@ -110,5 +110,5 @@ welcome:
 
 
     \- Udgivelse gennem Orchard / DIGIDI
-  image: /img/the-hideout-foto-1-mixer.jpeg
+  image: /img/the-hideout-studio-billede-.jpg
 ---
