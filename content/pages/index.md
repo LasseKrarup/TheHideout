@@ -1,5 +1,5 @@
 ---
-bgvideo: /img/bgvideo.mp4
+bgvideo: /img/the-hideout-studio-billede.mp4
 welcome:
   title: Studio in the heart of Aalborg, DK
   content: >-
