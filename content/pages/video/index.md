@@ -4,7 +4,7 @@ welcome:
   content: We offer professional recordings of your live sessions, livestreams or
     music videos  at the Hideout Studio. If you want a powerful PR-product for
     showcasing your musicality this is definitely the right choice for you.
-  image: /img/pexels-roman-koval-4040362.jpg
+  image: /img/073a9982-edit.jpg
 priceExamples:
   - title: Music Video
     content: >-
