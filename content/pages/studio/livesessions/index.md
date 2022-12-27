@@ -8,5 +8,5 @@ welcome:
 
 
     Recordings of live session can be done either with or without an audience in the live room depending on your artistic preferences.
-  image: /img/69351181_941616109516750_6045543906551005184_o.jpg
+  image: /img/the-hideout-studio-billede-.jpg
 ---
