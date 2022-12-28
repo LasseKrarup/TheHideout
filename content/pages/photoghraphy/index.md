@@ -1,7 +1,7 @@
 ---
 welcome:
   image: /img/073a2790-edit.jpg
-  title: "Photo "
+  title: Photography
   content: >-
     Good photos can make a strong first impression on potential fans, media
     outlets, and industry professionals. They can help to capture the musician's
