@@ -35,14 +35,7 @@ welcome:
     V﻿i lægger løbende billeder op af vores arbejde med solister, bands, musikudstyr, indspilninger, produktioner og du er velkommen til at følge med, men det går stærkt da vi har omkring 100 individuelle projekter om året. 
 
 
-    Vi trives med alsidige opgaver og favner bredt med :
-
-
-    \-﻿Indspilning.
-
-
-
-
+    Vi trives med alsidige opgaver og favner bredt med indspilning af både bands og solister, optagelse og indspilning af lives sessions i vores musikstudie eller på lokation, sangskrivning, mix, master, bandfoto, SoMe content, videomateriale til akademisk forskning, podcast, voiceover til reklameindustrien, distribution af musik, vejledning i forbindelse med udgivelser og meget mere. 
 
 
 
