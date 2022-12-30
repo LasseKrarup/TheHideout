@@ -21,16 +21,19 @@ welcome:
     # V﻿elkommen til The Hideout Studio!
 
 
-    *D﻿a vi er så heldige at mange af vores kunder kommer fra udlandet, vil du/i opleve at vores hjemmeside overvejende er på engelsk.*
+    ### M﻿usikstudie i hjertet af Aalborg
 
 
-    V﻿i i The Hideout Studio er stolte over at kunne kalde os et "One Stop Studio", hvilket betyder at vi kan tilbyde service indenfor følgende.
+    *D﻿a vi er så heldige at mange af vores kunder kommer fra udlandet, vil du/i opleve at vores hjemmeside overvejende er på engelsk, men frygt ikke vores musikstudie ligger i Aalborg.*
+
+
+    V﻿i i The Hideout Studio er stolte over at kunne kalde os et "One Stop Studio", hvilket betyder at vi kan tilbyde service indenfor følgende områder:
 
 
     **Indspilning, Mix, Mastering, Video og Livesessions, Fotoshoot og Musikdistribution.**
 
 
-    **L﻿æs mere om vores ydelser her** <https://thehideout.dk/about/>
+    **L﻿æs mere om vores ydelser og musikstudie her** <https://thehideout.dk/about/>
   image: /img/black.png
 studio:
   title: Studio
