@@ -66,34 +66,28 @@ welcome:
     S﻿idder du med er færdigt mix er mastering det naturlige næste skridt i processen mod udgivelse. I mastering får din musik et sæt "friske ører" og eventuelle problemer i mixet vil blive italesat. Helheden bliver poleret og optimeret til kommerciel konkurencedygtig udgivelse. Uanset niveau på mixet er mastering uundværlig, det er sidste chance for at tjekke for detaljer man i mixet har lyttet sig blind på. I mastering er det nummeret som helhed der er i fokus.
 
 
-    ## \-﻿ Livesession 
+    ## \-﻿ Livesession
 
 
     Livessesions er en effektiv måde at promovere livemusik på. Ved en livesession forstås en  live indspilning som optages på lyd og billede. 
 
 
-    Vi har i The Hideout Studio gennem årene lavet et utal af livesessions, hvor vi med vores stemningsfulde omgivelser og håndholdte kamera “fanger nuet” i musikken. Livessesions er en effektiv måde at få sit musikalske budskab ud til et størrer publikkum, samt kan give en fordel i forbindelse med bookinger da spillestederne og publikum kan se jer spille live.
+    Vi har i The Hideout Studio gennem årene lavet et utal af livesessions , hvor vi med vores stemningsfulde omgivelser og håndholdte kamera “fanger nuet” i musikken. Livessesions er en effektiv måde at få sit musikalske budskab ud til et større publikum, samt kan give en fordel i forbindelse med bookinger da spillestederne og publikum kan se jer spille live i vores musikstudie. 
 
 
-
-
-    ## **\-Audio Cleanup/ LYD Restoration** 
+    ## **\-Audio Cleanup/ LYD Restoration**
 
 
     Sidder du med et lydspor med støj? Uhensigtsmæssige mislyde? Knitren? Host fra publikum? Dårlig optaget podcast? 
 
 
-    Listen med problemer kan være lang, men vi står klar til at hjælpe.
+    Listen med problemer kan være lang, men vi står klar til at hjælpe, ved hjælp af den nyeste teknologi er det muligt at redde mange optagelser.
 
 
+    ## **\- Voiceover Recording**
 
 
-
-
-    ## **\- Voiceover Recording** 
-
-
-    Vi har stor erfaringer med optagelse af voiceover, lige fra reklamespots for internationale virksomheder, præsentationsvideoer for bands / artister,  præsentation af forskningsresultater og podcasts. 
+    På trods af at vi er et musikstudie har vi stor erfaringer med optagelse af voiceover, lige fra reklamespots for internationale virksomheder, præsentationsvideoer for bands / artister,  præsentation af forskningsresultater og podcasts.
 
 
     Om du er helt grøn på området, eller professionel voice actor, er vi klar til at optage og post producere tale.
