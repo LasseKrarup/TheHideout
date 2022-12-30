@@ -28,9 +28,6 @@ welcome:
     # M﻿ixing
 
 
-    ### M﻿ixing
-
-
     Mixing is an essential part of the music production process, as it involves balancing and refining the various elements of a song to create a cohesive and pleasing sound. A good mix can make a huge difference in the overall impact and enjoyment of a song, and it is the result of careful attention to detail and a keen ear for balance and clarity.
 
 
