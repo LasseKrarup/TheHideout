@@ -8,7 +8,10 @@ welcome:
     ###### We always have fresh coffee brewing.
 
 
-    The heart of the studio is our control room. Dominated by old-school analogue equipment combined with modern hardware and software. 
+    The heart of the studio is our control room. Dominated by old-school analogue equipment combined with modern hardware and software from recognized brands such as:
+
+
+    N﻿eumann, Steinway, UAD, Neve, AGK, Fender , Martin, DPA, AEA, Shure, GK. 
 
 
     The main recording room have all your heart might desire including old Vox and Fender amplifiers as well as our 1896 Steinway & Sons B211 grand piano.
