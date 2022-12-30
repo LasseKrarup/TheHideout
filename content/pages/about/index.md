@@ -22,29 +22,6 @@ welcome:
 
 
 
-    ### M﻿ixing
-
-
-    Mixing is an essential part of the music production process, as it involves balancing and refining the various elements of a song to create a cohesive and pleasing sound. A good mix can make a huge difference in the overall impact and enjoyment of a song, and it is the result of careful attention to detail and a keen ear for balance and clarity.
-
-
-    So, what makes a good mix? Here are some key characteristics we consider when mixing your song:
-
-
-    * Clarity: Each element of the song should be clearly audible and distinct from the others. This means that the vocals should be clearly audible over the instruments, and the instruments should not conflict with each other in the mix.
-
-    * Balance: The relative volume levels of each element should be balanced in a way that creates a cohesive and pleasing sound. This means that the vocals should not be too loud or too quiet, and the same goes for the instruments.
-
-    * Dynamics: The mix should have a good balance of loud and quiet elements, with a natural ebb and flow to the song. This helps to keep the listener engaged and helps the song feel more dynamic and interesting.
-
-    * Frequency balance: The mix should have a good balance of low, mid, and high frequencies, with each element occupying its own frequency range and not conflicting with other elements. This helps to create a full and well-rounded sound.
-
-    * Stereo imaging: The mix should have a sense of width and depth, with elements placed in the stereo field in a way that enhances the overall sound. This can help to create a sense of space and dimension in the mix.
-
-
-    In addition to these technical considerations, a good mix should also be able to convey the emotion and intent of the song. It should be appropriate for the genre and style of the music, and it should be pleasing to listen to. A mix that achieves all of these goals will help the song sound its best and be more enjoyable to listen to.
-
-
     \---------------------------------------------------------------------------------------------------------
 
 
