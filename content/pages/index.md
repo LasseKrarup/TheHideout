@@ -35,8 +35,6 @@ studio:
     *G﻿reat arti﻿st still make their best music in the best studios around the world and we are ready for you.*
 
 
-
-
     W﻿e welcome you inside what might be the most cozy studio you ever seen, thats what our clients calls The Hideout. A welcoming atmosphere greats you when you enter each of our recording rooms. 
 
 
@@ -53,10 +51,14 @@ studio:
   image: /img/the-hideout-foto-1-mixer.jpeg
 video:
   title: Video
-  content: |-
+  content: >-
     A video connects an artist and a listener.
 
-    We make professional videos on location and in the studio.
+
+    T﻿here are many different ways that musicians can use video to promote their music and connect with their audience. By leveraging the power of video, musicians can reach a wider audience, build their brand, and share their music with the world.
+
+
+    W﻿e are well known and highly praised for our livessesion videos. An effective an immersive way to draw the viewers into the music and also a very professionally booking material. A livessions is an effective way to showcase the band or the artist live performance.
   image: /img/073a9982-edit.jpg
 photo:
   title: Photo
