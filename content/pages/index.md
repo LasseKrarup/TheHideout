@@ -18,10 +18,12 @@ welcome:
     **"Recording studio in the heart of Aalborg. Professional and cozy setting. We always have fresh coffee brewing."**
 
 
+
+
     ## V﻿elkommen til The Hideout Studio!
 
 
-    ### M﻿usikstudie i hjertet af Aalborg
+    ### Musikstudie i hjertet af Aalborg
 
 
     *D﻿a vi er så heldige at mange af vores kunder kommer fra udlandet, vil du/i opleve at vores hjemmeside overvejende er på engelsk, men frygt ikke vores musikstudie ligger i Aalborg.*
@@ -29,10 +31,21 @@ welcome:
 studio:
   title: Studio
   content: >-
-    Welcome to The Hideout Studio located in Aalborg
+    ## Welcome to The Hideout Studio located in Aalborg
 
 
-    The heart of the studio is our control room.. Dominated by old-school analogue equipment combined with modern hardware and software. 
+    ## Musikstudie i Aalborg
+
+
+    *G﻿reat arti﻿st still make their best music in the best studios around the world and we are ready for you.*
+
+
+
+
+    W﻿e welcome you inside what might be the most cozy studio you ever seen, thats what our clients calls The Hideout. A welcoming atmosphere greats you when you enter each of our recording rooms. 
+
+
+    The heart of the studio is our control room. Dominated by old-school analogue equipment combined with modern hardware and software. 
 
 
     The main recording room have all your heart might desire including old Vox and Fender amplifiers as well as our 1896 Steinway & Sons B211 grand piano.
@@ -41,7 +54,7 @@ studio:
     The secondary recording room is ideal for isolating acoustic instruments or vocals during full band recording sessions. 
 
 
-    All gear in the studio is at your free disposal.
+    All gear in the studio is at your free disposal, including the grandpiano.
   image: /img/the-hideout-foto-1-mixer.jpeg
 video:
   title: Video
