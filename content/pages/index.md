@@ -15,15 +15,10 @@ welcome:
     * **Recording, Mixing, Mastering, Video and livesessions, Promo photosessions and Music distribution.**
 
 
-    **"Recording studio in the heart of Aalborg. Professional and cozy setting. We always have fresh coffee brewing."**
+    ## *V﻿elkommen til The Hideout Studio!*
 
 
-
-
-    ## V﻿elkommen til The Hideout Studio!
-
-
-    ### Musikstudie i hjertet af Aalborg
+    ### *Musikstudie i hjertet af Aalborg*
 
 
     *D﻿a vi er så heldige at mange af vores kunder kommer fra udlandet, vil du/i opleve at vores hjemmeside overvejende er på engelsk, men frygt ikke vores musikstudie ligger i Aalborg.*
