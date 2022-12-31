@@ -65,11 +65,13 @@ video:
   image: /img/073a9982-edit.jpg
 photo:
   title: Photo
-  content: |-
+  content: >-
     ***Press Photography, Portrait Photography, Coverart, So Me.***
 
 
-
     The possibilities and uses are endless with a photography.
+
+
+    Photos allow musicians to showcase their image and aesthetic to their audience. This can be especially important for musicians who are trying to build their brand and establish their identity. By selecting and sharing high-quality photos that reflect their style and personality, you as a musician can create a visual representation of your music and your brand.
   image: /img/the-hideout-foto-6-.jpeg
 ---
