@@ -59,6 +59,9 @@ video:
 
 
     W﻿e are well known and highly praised for our livessesion videos. An effective an immersive way to draw the viewers into the music and also a very professionally booking material. A livessions is an effective way to showcase the band or the artist live performance.
+
+
+    Musicians can use video to share behind-the-scenes glimpses of their lives and their creative process. This can help to create a sense of intimacy and connection with their audience and give fans an inside look at the musician's world. These BTS glimpses also serves as great content for social media platforms, a online presences is more important now than ever in the competetive market of great music.
   image: /img/073a9982-edit.jpg
 photo:
   title: Photo
