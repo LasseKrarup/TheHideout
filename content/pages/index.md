@@ -18,7 +18,7 @@ welcome:
     **"Recording studio in the heart of Aalborg. Professional and cozy setting. We always have fresh coffee brewing."**
 
 
-    # V﻿elkommen til The Hideout Studio!
+    ## V﻿elkommen til The Hideout Studio!
 
 
     ### M﻿usikstudie i hjertet af Aalborg
