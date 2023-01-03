@@ -35,7 +35,7 @@ studio:
     *G﻿reat arti﻿st still make their best music in the best studios around the world and we are ready for you.*
 
 
-    W﻿e welcome you inside what might be the most cozy studio you ever seen, thats what our clients calls The Hideout. A welcoming atmosphere greats you when you enter each of our recording rooms. 
+    W﻿e welcome you inside what might be the most cozy studio you ever seen, thats what our clients calls The Hideout. A welcoming atmosphere greets you when you enter each of our recording rooms. 
 
 
     The heart of the studio is our control room. Dominated by old-school analogue equipment combined with modern hardware and software. 
