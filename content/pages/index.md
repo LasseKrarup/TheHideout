@@ -12,7 +12,7 @@ welcome:
     * **Recording, mixing, mastering, video and livesessions, promo photosessions and music distribution.**
 
 
-    **Go visit us on** **[Instagram](**<https://www.instagram.com/thehideoutstudio/>**)**
+    **Go visit us on** **[Instagram](https://www.instagram.com/thehideoutstudio/)**
 
 
     ## *V﻿elkommen til The Hideout Studio!*
