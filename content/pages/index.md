@@ -3,16 +3,18 @@ bgvideo: /img/the-hideout-studio-billede-.mp4
 welcome:
   title: Studio in the heart of Aalborg, DK
   content: >-
-    **Check Our SoMe!!!!    <https://www.instagram.com/thehideoutstudio/>**
-
-
     # **Welcome to The Hideout Studio!**
 
 
-    **The Hideout Studio is a "One Stop Studio" where we are able to take care of the following:**
+    **The Hideout Studio is a "one stop studio" where we are able to take care of the following:**
 
 
-    * **Recording, Mixing, Mastering, Video and livesessions, Promo photosessions and Music distribution.**
+    * **Recording, mixing, mastering, video and livesessions, promo photosessions and music distribution.**
+
+
+    **Go visit us on** \*\*INSTAGRAM\*\*
+
+
 
 
     ## *V﻿elkommen til The Hideout Studio!*
