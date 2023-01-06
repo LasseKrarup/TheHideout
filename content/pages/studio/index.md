@@ -49,7 +49,7 @@ welcome:
     In addition to these technical considerations, a good mix should also be able to convey the emotion and intent of the song. It should be appropriate for the genre and style of the music, and it should be pleasing to listen to. A mix that achieves all of these goals will help the song sound its best and be more enjoyable to listen to.
 
 
-    ![Studie I Aalborg](/img/the-hideout-foto-4-flygel.jpeg "Steinway & Sons")
+    ![Studie I Aalborg, pladestudie](/img/the-hideout-foto-4-flygel.jpeg "Steinway & Sons")
 
 
     > # **Musikstudie i hjertet af Aalborg**
