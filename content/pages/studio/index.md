@@ -26,8 +26,6 @@ welcome:
     We also offer both mixing and mastering for your projects whether or not your recording has been done in-house.
 
 
-
-
     # M﻿ixing
 
 
@@ -61,7 +59,7 @@ welcome:
     > # **Vi varetager opgaver som  Produktion, Indspilning, Livesions, Promo Foto,  Mixing, Mastering, Audio Cleanup/ LYD Restoration, Voiceover Recording samt Udgivelser.**
 
 
-    Vi vil gerne byde velkommen i vores indspilnings og postproduktions studie i Aalborg.
+    Vi vil gerne byde velkommen i vores indspilnings og postproduktions studie i Aalborg, et pladestudie hvor kunstneriske ambitioner bliver til virkelighed.
 
 
     Musik studiet i Aalborg er bygget op omkring vores controlroom med ophold, hvorfra der er frit udsyn til vores primære liveroom samt vores mindre sekundære afskærmede "boks". 
