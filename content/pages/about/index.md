@@ -20,8 +20,6 @@ welcome:
     <https://www.instagram.com/thehideoutstudio/>
 
 
-
-
     \---------------------------------------------------------------------------------------------------------
 
 
@@ -130,8 +128,14 @@ welcome:
     \- Udgivelse gennem Orchard / DIGIDI
 
 
-
-
     Vi glæder os til at hjælpe dig med at skabe fantastiske musikoplevelser i vores studie i Aalborg.
+
+
+
+
+    ## L﻿ydstudie, Pladestudie, Indspilningsstuide, Musikstudie
+
+
+    K﻿ært barn har mange navne.
   image: /img/the-hideout-studio-billede-.jpg
 ---
