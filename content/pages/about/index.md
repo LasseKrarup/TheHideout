@@ -74,7 +74,7 @@ welcome:
     Indspilning er hele processen fra lydkilden til sporene ligger digitalt i DAW,  fra kilden igennem mikrofonen, til preamps og A/D konvertering i det digitale domæne. Vi har erfaring med en bred vifte af forskellige typer af musik og bands, ligefra "World Music" til POP, Jazz, Rock og Metal, så tøv ikke med at tage kontakt uanset band type og sammensætning.
 
 
-    ##### Processen
+    ##### Processen i et lydstudie 
 
 
     Processen ved en indspilning starter før selve indspilningsdagen, vi har rigtig gode erfaringer med at lave en "indspilningsplan" før den aftalte indspilning. Planen danner basis for hvad der skal indspilles hvornår, men danner samtidig også grundlag for en samtale indbyrdes i bandet som sikre at bandet er 100 procent klar til at indspille. Efter indspilning går processen ind i postproduktionsfasen.
@@ -107,7 +107,7 @@ welcome:
     Når musikken skal "ud" er vi også behjælpelig med denne proces, vi står klar til at hjælpe med :
 
 
-    \- Udgivelserne på alle de gængse streamingtjenester
+    \- Udgivelserne på alle de gængse streamingtjenester.
 
 
     \- KODA og GRAMEX
