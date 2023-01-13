@@ -52,11 +52,11 @@ welcome:
     ![Studie I Aalborg, pladestudie](/img/the-hideout-foto-4-flygel.jpeg "Steinway & Sons")
 
 
-    > # **Musikstudie i hjertet af Aalborg**
+    > # **Musikstudie / Lydstudie i hjertet af Aalborg** 
 
     >
 
-    > # **Vi varetager opgaver som  Produktion, Indspilning, Livesions, Promo Foto,  Mixing, Mastering, Audio Cleanup/ LYD Restoration, Voiceover Recording samt Udgivelser.**
+    > ## **Vi varetager opgaver som  Produktion, Indspilning, Livesions, Promo Foto,  Mixing, Mastering, Audio Cleanup/ LYD Restoration, Voiceover Recording samt Udgivelser.**
 
 
     Vi vil gerne byde velkommen i vores indspilnings og postproduktions studie i Aalborg, et pladestudie hvor kunstneriske ambitioner bliver til virkelighed.
@@ -107,7 +107,7 @@ welcome:
     Sidder du med et lydspor med støj? Uhensigtsmæssige mislyde? Knitren? Host fra publikum? Dårlig optaget podcast? 
 
 
-    Listen med problemer kan være lang, men vi står klar til at hjælpe, ved hjælp af den nyeste teknologi er det muligt at redde mange optagelser.
+    Listen med problemer kan være lang, men vi står klar til at hjælpe, ved hjælp af den nyeste teknologi er det muligt at redde mange optagelser. Vi har erfaringen der kræves for at udbedre mange problemer i dine optagelser. 
 
 
     ## **\- Voiceover Recording**
