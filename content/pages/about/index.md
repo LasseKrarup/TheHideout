@@ -2,22 +2,19 @@
 welcome:
   title: Who are we?
   content: >-
-    # Music Studio in the heart of Aalborg Denmark.
+    # Welcome to The Hideout Studio Aalborg
 
 
-    The heart of the studio is our control room. Dominated by old-school analogue equipment combined with modern hardware and software. 
+    Welcome to The Hideout Studio Aalborg, where we offer professional music recording in all genres. The perfect place for bands and solo artists who want to record music in Aalborg. Whether you are an experienced musician or a beginner, we will do everything to help you achieve your musical goals
 
 
-    The main recording room have all your heart might desire including old Vox and Fender amplifiers as well as our 1896 Steinway & Sons B211 grand piano.
+    Check us out on[ Instagram](<https://www.instagram.com/thehideoutstudio/>) [](https://www.instagram.com/thehideoutstudio/)
 
 
-    The secondary recording room is ideal for isolating acoustic instruments or vocals during full band recording sessions.
+    We regularly post pictures of our work with solo artists, bands, music equipment, recordings, productions, and you are welcome to follow along. However, it moves quickly as we have around 100 individual projects per year.
 
 
-    All gear in the studio is at your free disposal.
-
-
-    <https://www.instagram.com/thehideoutstudio/>
+    We thrive on versatile tasks and cater to a wide range of services including recording for both bands and solo artists, live session recording in our music studio or on location, songwriting, mixing, mastering, band photography, social media content, video material for academic research, podcast, voiceover for the advertising industry, music distribution, guidance in connection with releases and much more.
 
 
     \---------------------------------------------------------------------------------------------------------
