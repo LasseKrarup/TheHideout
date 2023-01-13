@@ -29,7 +29,7 @@ welcome:
     Velkommen til The Hideout Studio Aalborg , hvor vi tilbyder professionel indspilning af musik i alle genre, det perfekte sted for bands og solister, der ønsker at i﻿ndspille musik i Aalborg. Uanset om du er en erfaren musiker eller en nybegynder, så vil vi gøre alt for at hjælpe dig med at nå dine musikalske mål. 
 
 
-    T﻿jek os ud på Instagram <https://www.instagram.com/thehideoutstudio/>
+    T﻿jek os ud på[ Instagram](<https://www.instagram.com/thehideoutstudio/>)
 
 
     V﻿i lægger løbende billeder op af vores arbejde med solister, bands, musikudstyr, indspilninger, produktioner og du er velkommen til at følge med, men det går stærkt da vi har omkring 100 individuelle projekter om året. 
