@@ -33,5 +33,18 @@ welcome:
 
 
     In conclusion, recording in a professional music studio like The Hideout Studio in Aalborg can be crucial for bands looking to produce high-quality recordings and make a name for themselves in the music industry. With access to state-of-the-art technology, experienced engineers and mastering engineers, a professional music studio can help bands achieve their desired sound and increase their chances of success.
+
+
+
+
+    # T﻿he Hideout Studio - Et lydstudie med plads til hele bandet.
+
+
+
+
+    M﻿ed plads til bandopsætninger inviter vi i The Hideout Studio indenfor til en ægte indspilningsoplevelse, med albuerum og ro til at fordybe sig i det der virkelig betyder noget, nemlig musikken. Tag plads i Danmarks måske hyggeligste musikstudie, her vil vores erfarne studietekniker bistå indspilningen fra start til de færdige optagelser er i kassen. 
+
+
+    V﻿i er et tradionelt pladestudie, vi indspiller, mixer og master alt fra albums til singler med dig i fokus.
   image: /img/foto-the-hideout-3-studiet.jpeg
 ---
